@@ -117,9 +117,9 @@ KPLIB_o_battleGrpVehicles = [
     "UK3CB_TKA_O_Hilux_Zu23_Front",                                     // Hilux (Zu23)
     "UK3CB_TKA_O_T72A",                                                 // T-72A
     "UK3CB_TKA_O_T72A",                                                 // T-72A
-    "UK3CB_TKA_O_T72BM"                                                 // T-72BM
-    "UK3CB_TKA_O_T72BM"                                                 // T-72BM
-	"UK3CB_TKA_O_T72B"                                                  // T-72AV
+    "UK3CB_TKA_O_T72BM",                                                 // T-72BM
+    "UK3CB_TKA_O_T72BM",                                                 // T-72BM
+	"UK3CB_TKA_O_T72B",                                                  // T-72AV
     "UK3CB_TKA_O_UH1H_M240",                                            // UH-1H (Armed)
     "UK3CB_TKA_O_UH1H_M240",                                            // UH-1H (Armed)
     "UK3CB_TKA_O_Mi8",                                                  // Mil Mi-8 (Transport)
@@ -199,5 +199,5 @@ KPLIB_o_turrets_MORTAR = [
 // Enemy SAM turrets that will be spawned in the back country
 KPLIB_o_turrets_SAM = [
     ["UK3CB_CSAT_B_O_SAMS_System"], 
-    ["O_SAM_System_04_F", "UK3CB_CSAT_B_O_Radar_System"]
+    ["UK3CB_CSAT_B_O_Radar_System"]
 ];

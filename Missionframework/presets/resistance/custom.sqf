@@ -1,15 +1,19 @@
 /*
-    File: custom.sqf
+    File: Takistan Rebels.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
-    Date: 2017-10-07
+    Date: 2017-12-09
     Last Update: 2020-05-25
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
-        Custom (default FIA) resistance preset.
+        Middle Eastern resistance preset.
 
     Needed Mods:
-        - None
+        - RHS AFRF
+        - RHS USAF
+		- RHSGREF
+		- RHSSAF
+		- 3CB Factions
 
     Optional Mods:
         - None
@@ -18,20 +22,20 @@
 /* Classnames of the guerilla faction which is friendly or hostile, depending on the civil reputation
 Standard loadout of the units will be replaced with a scripted one, which depends on the guerilla strength, after spawn */
 KPLIB_r_units = [
-    "I_G_Soldier_AR_F",
-    "I_G_engineer_F",
-    "I_G_officer_F",
-    "I_G_medic_F",
-    "I_G_Soldier_F",
-    "I_G_Soldier_LAT_F",
-    "I_G_Soldier_M_F",
-    "I_G_Soldier_SL_F"
+    "UK3CB_MEE_I_TL",
+    "UK3CB_MEE_I_RIF_1",
+    "UK3CB_MEE_I_RIF_2",
+    "UK3CB_MEE_I_RIF_3",
+    "UK3CB_MEE_I_AT",
+    "UK3CB_MEE_I_AR",
+    "UK3CB_MEE_I_MD",
+    "UK3CB_MEE_I_ENG"
 ];
 
 // Armed vehicles
 KPLIB_r_vehicles = [
-    "I_G_Offroad_01_armed_F",
-    "I_G_Offroad_01_AT_F"
+    "UK3CB_MEI_I_Hilux_Open",
+    "UK3CB_MEI_I_Hilux_Dshkm"
 ];
 
 /* Guerilla Equipment
@@ -41,188 +45,149 @@ There are 3 tiers for every category. If the strength of the guerillas will incr
 ["Weaponclassname","Magazineclassname","magazine amount","optic","tripod"]
 You can leave optic and tripod empty with "" */
 KPLIB_r_weapons_1 = [
-    ["arifle_AKM_F","30Rnd_762x39_Mag_F",4,"",""],
-    ["arifle_AKS_F","30Rnd_545x39_Mag_F",4,"",""],
-    ["hgun_PDW2000_F","30Rnd_9x21_Mag",4,"",""],
-    ["SMG_01_F","30Rnd_45ACP_Mag_SMG_01",4,"",""],
-    ["SMG_02_F","30Rnd_9x21_Mag_SMG_02",4,"",""],
-    ["SMG_05_F","30Rnd_9x21_Mag_SMG_02",4,"",""]
+    ["rhs_weap_ak74","rhs_30rnd_545x39_AK",4,"",""],
+    ["rhs_weap_aks74u","rhs_30rnd_545x39_AK",4,"",""],
+    ["uk3cb_enfield_no4_walnut","uk3cb_no4_enfield_303_10Rnd_magazine",4,"",""]
 ];
 
 KPLIB_r_weapons_2 = [
-    ["arifle_Katiba_F","30Rnd_65x39_caseless_green",4,"optic_ACO_grn",""],
-    ["arifle_Mk20_plain_F","30Rnd_556x45_Stanag",4,"optic_ACO_grn",""],
-    ["arifle_TRG21_F","30Rnd_556x45_Stanag",4,"optic_ACO_grn",""],
-    ["arifle_CTAR_blk_F","30Rnd_580x42_Mag_F",4,"optic_ACO_grn",""],
-    ["arifle_MX_SW_F","100Rnd_65x39_caseless_mag",3,"optic_ACO_grn","bipod_01_F_blk"],
-    ["srifle_DMR_06_olive_F","20Rnd_762x51_Mag",5,"optic_Hamr","bipod_01_F_blk"]
+    ["rhs_weap_ak74","rhs_30rnd_545x39_AK",6,"",""],
+    ["rhs_weap_akm","rhs_30rnd_762x39mm",6,"",""],
+    ["rhs_weap_akms","rhs_30rnd_762x39mm",6,"",""],
+    ["rhs_weap_aks74u","rhs_30rnd_545x39_AK",6,"",""],
+    ["rhs_weap_pp2000","rhs_mag_9x19mm_7n21_20",5,"optic_ACO_grn_smg",""],
+    ["uk3cb_enfield_no4t_walnut","uk3cb_no4_enfield_303_10Rnd_magazine",4,"uk3cb_optic_no32_distressed",""]
 ];
 
 KPLIB_r_weapons_3 = [
-    ["arifle_CTAR_blk_F","30Rnd_580x42_Mag_F",4,"optic_MRCO",""],
-    ["arifle_SPAR_01_blk_F","30Rnd_556x45_Stanag",4,"optic_MRCO",""],
-    ["arifle_SPAR_03_blk_F","20Rnd_762x51_Mag",5,"optic_MRCO",""],
-    ["arifle_ARX_blk_F","30Rnd_65x39_caseless_green",4,"optic_MRCO",""],
-    ["srifle_DMR_03_F","20Rnd_762x51_Mag",5,"optic_MRCO",""],
-    ["srifle_EBR_F","20Rnd_762x51_Mag",5,"optic_MRCO",""],
-    ["srifle_DMR_07_blk_F","20Rnd_650x39_Cased_Mag_F",5,"optic_DMS",""],
-    ["LMG_Mk200_F","200Rnd_65x39_cased_Box",2,"optic_MRCO","bipod_01_F_blk"]
+    ["rhs_weap_ak103","rhs_30rnd_762x39mm",8,"",""],
+    ["rhs_weap_ak104","rhs_30rnd_762x39mm",8,"",""],
+    ["rhs_weap_ak105","rhs_30rnd_545x39_AK",8,"rhs_acc_ekp1",""],
+    ["rhs_weap_pkm","rhs_100Rnd_762x54mmR",8,"",""],
+    ["rhs_weap_aks74un","rhs_30rnd_545x39_AK",8,"rhs_acc_ekp8_02",""],
+    ["uk3cb_sks_02","uk3cb_10rnd_magazine_sks",6,"",""]
 ];
 
 // Uniforms
 KPLIB_r_uniforms_1 = [
-    "U_C_Poloshirt_blue",
-    "U_C_Poloshirt_burgundy",
-    "U_C_Poloshirt_salmon",
-    "U_C_Poloshirt_redwhite",
-    "U_C_Poloshirt_stripped",
-    "U_C_Poloshirt_tricolour",
-    "U_C_Poor_1",
-    "U_C_Man_casual_1_F",
-    "U_C_Man_casual_2_F",
-    "U_C_Man_casual_3_F",
-    "U_C_Man_casual_4_F",
-    "U_C_Man_casual_5_F",
-    "U_C_Man_casual_6_F",
-    "U_Marshal"
+    "UK3CB_TKC_C_U_01",
+    "UK3CB_TKC_C_U_01_B",
+    "UK3CB_TKC_C_U_01_C",
+    "UK3CB_TKC_C_U_01_D",
+    "UK3CB_TKC_C_U_01_E",
+    "UK3CB_TKC_C_U_02",
+    "UK3CB_TKC_C_U_02_B",
+    "UK3CB_TKC_C_U_02_C",
+    "UK3CB_TKC_C_U_02_D",
+    "UK3CB_TKC_C_U_02_E",
+    "UK3CB_TKC_C_U_03",
+    "UK3CB_TKC_C_U_03_B",
+    "UK3CB_TKC_C_U_03_C",
+    "UK3CB_TKC_C_U_03_D",
+    "UK3CB_TKC_C_U_03_E"
 ];
 
 KPLIB_r_uniforms_2 = [
-    "U_I_C_Soldier_Bandit_1_F",
-    "U_I_C_Soldier_Bandit_2_F",
-    "U_I_C_Soldier_Bandit_3_F",
-    "U_I_C_Soldier_Bandit_4_F",
-    "U_I_C_Soldier_Bandit_5_F",
-    "U_BG_Guerilla2_1",
-    "U_BG_Guerilla2_2",
-    "U_BG_Guerilla2_3",
-    "U_BG_Guerilla3_1",
-    "U_C_HunterBody_grn",
-    "U_C_Mechanic_01_F",
-    "U_I_C_Soldier_Para_5_F",
-    "U_I_G_resistanceLeader_F"
+    "UK3CB_TKM_B_U_01",
+    "UK3CB_TKM_B_U_01_B",
+    "UK3CB_TKM_B_U_01_C",
+    "UK3CB_TKM_B_U_03",
+    "UK3CB_TKM_B_U_03_B",
+    "UK3CB_TKM_B_U_03_C",
+    "UK3CB_TKM_B_U_04",
+    "UK3CB_TKM_B_U_04_B",
+    "UK3CB_TKM_B_U_04_C",
+    "UK3CB_TKM_B_U_05",
+    "UK3CB_TKM_B_U_05_B",
+    "UK3CB_TKM_B_U_05_C",
+    "UK3CB_TKM_B_U_06",
+    "UK3CB_TKM_B_U_06_B",
+    "UK3CB_TKM_B_U_06_C"
 ];
 
 KPLIB_r_uniforms_3 = [
-    "U_BG_Guerilla1_1",
-    "U_BG_Guerilla1_2_F",
-    "U_BG_Guerrilla_6_1",
-    "U_BG_leader",
-    "U_I_C_Soldier_Para_1_F",
-    "U_I_C_Soldier_Para_2_F",
-    "U_I_C_Soldier_Para_3_F",
-    "U_I_C_Soldier_Para_4_F",
-    "U_I_C_Soldier_Camo_F"
+    "UK3CB_TKM_O_U_01",
+    "UK3CB_TKM_O_U_01_B",
+    "UK3CB_TKM_O_U_01_C",
+    "UK3CB_TKM_O_U_01_D",
+    "UK3CB_TKM_O_U_03",
+    "UK3CB_TKM_O_U_03_B",
+    "UK3CB_TKM_O_U_03_C",
+    "UK3CB_TKM_O_U_04",
+    "UK3CB_TKM_O_U_04_B",
+    "UK3CB_TKM_O_U_04_C",
+    "UK3CB_TKM_O_U_05",
+    "UK3CB_TKM_O_U_05_B",
+    "UK3CB_TKM_O_U_05_C",
+    "UK3CB_TKM_O_U_06",
+    "UK3CB_TKM_O_U_06_C"
 ];
 
 // Vests
 KPLIB_r_vests_1 = [
-    "V_LegStrapBag_coyote_F",
-    "V_LegStrapBag_olive_F",
-    "V_LegStrapBag_black_F",
-    "V_Pocketed_coyote_F",
-    "V_Pocketed_olive_F",
-    "V_Pocketed_black_F",
-    "V_BandollierB_cbr",
-    "V_BandollierB_rgr",
-    "V_BandollierB_khk",
-    "V_BandollierB_oli",
-    "V_BandollierB_blk",
-    "V_BandollierB_ghex_F"
+    ""
 ];
 
 KPLIB_r_vests_2 = [
-    "V_Chestrig_rgr",
-    "V_Chestrig_khk",
-    "V_Chestrig_oli",
-    "V_Chestrig_blk",
-    "V_HarnessO_brn",
-    "V_HarnessO_gry",
-    "V_HarnessO_ghex_F",
-    "V_HarnessOGL_brn",
-    "V_HarnessOGL_gry",
-    "V_HarnessOGL_ghex_F"
+    "",
+    "V_LegStrapBag_black_F",
+    "V_LegStrapBag_coyote_F",
+    "V_LegStrapBag_olive_F",
+    "rhs_6sh46"
 ];
 
 KPLIB_r_vests_3 = [
-    "V_TacVest_brn",
-    "V_TacVest_khk",
-    "V_TacVest_oli",
-    "V_TacVest_blk",
-    "V_I_G_resistanceLeader_F",
-    "V_TacVest_camo",
-    "V_TacChestrig_grn_F",
-    "V_TacChestrig_cbr_F",
-    "V_TacChestrig_oli_F"
+    "UK3CB_TKA_I_V_6Sh92_Des",
+    "UK3CB_TKA_I_V_6Sh92_Radio_Des",
+    "UK3CB_TKA_I_V_6Sh92_vog_Des",
+    "UK3CB_TKA_I_V_6Sh92_TKA_Brush",
+    "UK3CB_TKA_I_V_6Sh92_Radio_TKA_Brush"
 ];
 
 // Headgear
 KPLIB_r_headgear_1 = [
-    "",
-    "",
-    "",
-    "",
-    "H_Hat_brown",
-    "H_Hat_grey",
-    "H_Hat_tan",
-    "H_Hat_checker",
-    "H_Hat_camo",
-    "H_Bandanna_surfer",
-    "H_Bandanna_surfer_grn",
-    "H_Bandanna_surfer_blk",
-    "H_Hat_Safari_olive_F",
-    "H_Hat_Safari_sand_F",
-    "H_Construction_basic_black_F",
-    "H_Helmet_Skate",
-    "H_Cap_blu",
-    "H_Cap_grn",
-    "H_Cap_tan",
-    "H_Cap_oli",
-    "H_Cap_red",
-    "H_Cap_blk"
+    "H_HeadBandage_clean_F",
+    "H_HeadBandage_stained_F",
+    "rhssaf_bandana_digital_desert",
+    "rhssaf_bandana_smb",
+    "H_Bandanna_gry",
+    "H_Bandanna_cbr",
+    "H_Bandanna_khk_hs",
+    "H_Bandanna_khk",
+    "H_Bandanna_sand",
+    "H_Bandanna_mcamo"
 ];
 
 KPLIB_r_headgear_2 = [
-    "H_Bandanna_blu",
-    "H_Bandanna_sand",
+    "H_HeadBandage_clean_F",
+    "H_HeadBandage_stained_F",
+    "rhssaf_bandana_digital_desert",
+    "rhssaf_bandana_smb",
     "H_Bandanna_gry",
-    "H_Bandanna_camo",
     "H_Bandanna_cbr",
-    "H_Bandanna_sgg",
+    "H_Bandanna_khk_hs",
     "H_Bandanna_khk",
-    "H_Cap_blu",
-    "H_Cap_grn",
-    "H_Cap_tan",
-    "H_Cap_oli",
-    "H_Cap_red",
-    "H_Cap_blk",
-    "H_Cap_blk_Raven",
-    "H_MilCap_dgtl"
+    "H_Bandanna_sand",
+    "H_Bandanna_mcamo"
 ];
 
 KPLIB_r_headgear_3 = [
-    "H_ShemagOpen_khk",
-    "H_ShemagOpen_tan",
-    "H_Shemag_olive",
-    "H_Booniehat_khk",
-    "H_Booniehat_oli",
-    "H_Booniehat_tan",
-    "H_Booniehat_dgtl",
-    "H_Booniehat_tna_F",
-    "H_PASGT_basic_olive_F",
-    "H_PASGT_basic_white_F"
+    "UK3CB_ADE_I_H_Turban_01_2",
+    "UK3CB_H_Turban_Facewrap_01_Tan",
+    "UK3CB_H_Turban_Facewrap_02_Tan",
+    "UK3CB_H_Turban_Facewrap_03_Tan",
+    "UK3CB_H_Turban_Facewrap_01_Yel",
+    "UK3CB_H_Turban_Facewrap_02_Yel",
+    "UK3CB_H_Turban_Facewrap_03_Yel",
+    "UK3CB_TKM_O_H_Turban_03_1",
+    "UK3CB_TKM_O_H_Turban_04_1",
+    "UK3CB_H_Shemag_grey",
+    "UK3CB_H_Shemag_red_02",
+	"UK3CB_H_Shemag_tan",
+    "UK3CB_ABP_B_H_6b27m_DES"
 ];
 
 // Facegear. Applies for tier 2 and 3.
 KPLIB_r_facegear = [
-    "",
-    "",
-    "",
-    "G_Bandanna_shades",
-    "G_Bandanna_beast",
-    "G_Bandanna_tan",
-    "G_Bandanna_khk",
-    "G_Bandanna_oli",
-    "G_Bandanna_aviator",
-    "G_Bandanna_blk"
+    ""
 ];

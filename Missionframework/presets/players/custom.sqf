@@ -249,7 +249,6 @@ KPLIB_b_objectsDeco = [
     ["Land_Razorwire_F",0,0,0],
     ["Land_ClutterCutter_large_F",0,0,0],
 	["Land_CzechHedgehog_01_old_F",0,0,0],
-	["["Land_CzechHedgehog_01_old_F",0,0,0],",0,0,0],
 	["Land_DragonsTeeth_01_4x2_old_redwhite_F",0,0,0]
 ];
 

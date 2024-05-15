@@ -435,7 +435,7 @@ KPLIB_arsenalMagazines = [
     "rhsusf_mine_m49a1_6m_mag",                                     // M49A1 (6m)
     "murshun_cigs_cigpack",                                         // Cig Pack
     "murshun_cigs_lighter",                                         // Lighter
-    "murshun_cigs_matches"                                          // Matches
+    "murshun_cigs_matches",                                          // Matches
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
@@ -926,6 +926,7 @@ KPLIB_arsenalItems = [
     "rhsusf_bino_m24_ARD",                                          // M24 Binoculars (ARD)
     "rhsusf_bino_m24",                                              // M24 Binoculars
     "rhsusf_Rhino",                                                 // Rhino mount
+    
 
     // Vanilla Standard Items
     "acc_flashlight_pistol",                                        // Pistol Flashlight

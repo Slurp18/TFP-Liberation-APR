@@ -1,15 +1,17 @@
 /*
-    File: rhsusaf.sqf
-    Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
-    Date: 2017-03-16
-    Last Update: 2020-05-11
+    File: custom.sqf
+    Author: TF Phantom Admin Team
+    Date: 2024-04-14
+    Last Update: 2024-04-15
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
-        RHSUSAF arsenal preset.
+        TF Phantom arsenal preset.
 
     Needed:
         - RHSUSAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
+        - Tier One Weapons - https://steamcommunity.com/workshop/filedetails/?id=2268351256
+        - 3CB Factions - https://steamcommunity.com/workshop/filedetails/?id=1673456286
 
     Optional:
         - ACE  - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057

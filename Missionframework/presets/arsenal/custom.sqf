@@ -928,6 +928,14 @@ KPLIB_arsenalItems = [
     "rhsusf_bino_m24_ARD",                                          // M24 Binoculars (ARD)
     "rhsusf_bino_m24",                                              // M24 Binoculars
     "rhsusf_Rhino",                                                 // Rhino mount
+    "JAS_GPNVG18_blk",                                              // GPNVG-18 (Black)
+    "JAS_GPNVG18_Tan",                                              // GPNVG-18 (Tan)
+    "Tier1_Elcan_156_C2_Docter_FDE_2D",                             // SpecterDR 1.5x/6x C2 Doctor III [2D]
+    "Tier1_Elcan_156_C2_Docter_FDE_2D",                             // SpecterDR 1.5/6x C2 Doctor III (FDE) [2D]
+    "Tier1_Razor_Gen3_110_ADM_T2",                                  // Vortex Razor HD GENIII/ADM/Micro T-2
+    "Tier1_Razor_Gen3_110_Geissele_Docter",                         // Vortex Razor HD GENIII/GAM/Doctor III
+    "Tier1_Eotech551_L3_Black_Up",                                  // Eotech 551/L3
+    "Tier1_Eotech551_L3_Desert_Up",                                 // Eotech 551/L3 (Desert)
     
 
     // Vanilla Standard Items

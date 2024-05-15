@@ -1108,6 +1108,7 @@ KPLIB_arsenalBackpacks = [
     "B_Kitbag_rgr",                                                 // Kitbag (Green)
     "B_Kitbag_tan",                                                 // Kitbag (Tan)
     "B_Parachute",                                                  // Steerable Parachute
+    "B_UGV_02_Demining_backpack_F",                                 // EOD UGV
 
     // ACE Backpacks
     "ace_gunbag_Tan",                                               // Gunbag (Tan)

@@ -971,7 +971,11 @@ KPLIB_arsenalItems = [
     "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
     "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
     "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
-    
+    "DRNP_RD",                                                      // Remote Designator
+    "DRNP_AR2P",                                                    // AR-2 (Portable)
+    "DRNP_AL6P",                                                    // AL-6 (Portable)
+    "immersion_cigs_cigar0_nv",                                     // Cigar (NVG Slot)
+    "murshun_cigs_cig0_nv",                                         // Cigarette (NVG Slot)
 
     // Vanilla Standard Items
     "acc_flashlight_pistol",                                        // Pistol Flashlight

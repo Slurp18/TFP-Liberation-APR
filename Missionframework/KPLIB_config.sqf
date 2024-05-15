@@ -121,7 +121,7 @@ KPLIB_presetCivilians = 0;
     8  = SFP arsenal preset
     9  = BWMod arsenal preset
 */
-KPLIB_presetArsenal = 0;
+KPLIB_presetArsenal = 1;
 
 
 /*

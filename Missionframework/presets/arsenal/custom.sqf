@@ -25,12 +25,30 @@ KPLIB_arsenalWeapons = [
     "rhs_weap_hk416d10_LMT",                                        // HK416 D10 (SOPMOD Stock)
     "rhs_weap_hk416d10_m320",                                       // HK416 D10 (M320)
     "rhs_weap_hk416d10",                                            // HK416 D10
+    "Tier1_HK416D10_MW9_MFT",                                       // HK416 D10 (Midwest/MFT)
+    "Tier1_HK416D10_MW9_MFT_BlackDesert",                           // HK416 D10 (Midwest/MFT)(Black/Desert)
+    "Tier1_HK416D10_MW9_MFT_Desert",                                // HK416 D10 (Midwest/MFT)(Desert)
+    "Tier1_HK416D10_RAHG_MFT",                                      // HK416 D10 (RAHG/MFT)
+    "Tier1_HK416D10_RAHG_MFT_BlackDesert",                          // HK416 D10 (RAHG/MFT)(Black/Desert)
+    "Tier1_HK416D10_RAHG_MFT_Desert",                               // HK416 D10 (RAHG/MFT)(Desert)
+	"Tier1_HK416D10_SMR_MFT",                                       // HK416 D10 (SMR/MFT)
+    "Tier1_HK416D10_SMR_MFT_BlackDesert",                           // HK416 D10 (SMR/MFT)(Black/Desert)
+	"Tier1_HK416D10_SMR_MFT_Desert",                                // HK416 D10 (SMR/MFT)(Desert)
+	"rhs_weap_hk416d145",                                           // HK416 D14.5
     "rhs_weap_hk416d145_d_2",                                       // HK416 D14.5 (Desert Net)
     "rhs_weap_hk416d145_d",                                         // HK416 D14.5 (Desert Grass)
     "rhs_weap_hk416d145_m320",                                      // HK416 D14.5 (M320)
     "rhs_weap_hk416d145_wd_2",                                      // HK416 D14.5 (Woodland Net)
     "rhs_weap_hk416d145_wd",                                        // HK416 D14.5 (Woodland Grass)
-    "rhs_weap_hk416d145",                                           // HK416 D14.5
+    "Tier1_HK416D145_MW13_MFT",                                     // HK416 D14.5 (Midwest/MFT)	
+    "Tier1_HK416D145_MW13_MFT_BlackDesert",                         // HK416 D14.5 (Midwest/MFT)(Black/Desert)
+    "Tier1_HK416D145_MW13_MFT_Desert",                              // HK416 D14.5 (Midwest/MFT)(Desert)
+    "Tier1_HK416D145_RAHG_MFT",                                     // HK416 D14.5 (RAHG/MFT)
+    "Tier1_HK416D145_RAHG_MFT_BlackDesert",                         // HK416 D14.5 (RAHG/MFT)(Black/Desert)
+    "Tier1_HK416D145_RAHG_MFT_Desert",                              // HK416 D14.5 (RAHG/MFT)(Desert)
+    "Tier1_HK416D145_SMR_MFT",                                      // HK416 D14.5 (SMR/MFT)
+    "Tier1_HK416D145_SMR_MFT_BlackDesert",                          // HK416 D14.5 (SMR/MFT)(Black/Desert)
+    "Tier1_HK416D145_SMR_MFT_Desert",                               // HK416 D14.5 (SMR/MFT)(Desert)	
     "rhs_weap_M107_d",                                              // M107 (Desert)
     "rhs_weap_M107_w",                                              // M107 (Woodland)
     "rhs_weap_M107",                                                // M107
@@ -45,6 +63,7 @@ KPLIB_arsenalWeapons = [
     "rhs_weap_m16a4",                                               // M16A4
     "rhs_weap_m240B",                                               // M240B
     "rhs_weap_m240G",                                               // M240G
+	"rhs_weap_m249",                                                // M249
     "rhs_weap_m249_light_L",                                        // M249 PIP (Long/Ltwt.)
     "rhs_weap_m249_light_S",                                        // M249 PIP (Short/Ltwt.)
     "rhs_weap_m249_pip_L_para",                                     // M249 PIP (Long/Para)
@@ -53,7 +72,7 @@ KPLIB_arsenalWeapons = [
     "rhs_weap_m249_pip_S_para",                                     // M249 PIP (Short/Para)
     "rhs_weap_m249_pip_S",                                          // M249 PIP (Short/Savit)
     "rhs_weap_m249_pip",                                            // M249 PIP
-    "rhs_weap_m249",                                                // M249
+    "Tier1_M249_light_S_Desert",                                    // M249 PIP	(Short/LCBA)(Desert)
     "rhs_weap_m24sws_d",                                            // M24 SWS (Desert)
     "rhs_weap_m24sws_wd",                                           // M24 SWS (Woodland)
     "rhs_weap_m24sws",                                              // M24 SWS
@@ -107,6 +126,7 @@ KPLIB_arsenalWeapons = [
     "rhs_weap_mk17_CQC",                                            // Mk 17 Mod 0 (CQC)
     "rhs_weap_mk17_LB",                                             // Mk 17 Mod 0 (LB)
     "rhs_weap_mk17_STD",                                            // Mk 17 Mod 0 (STD)
+    "rhs_weap_mk18",                                                // Mk 18 Mod 1	
     "rhs_weap_mk18_bk",                                             // Mk 18 Mod 1 (Black Rail)
     "rhs_weap_mk18_d",                                              // Mk 18 Mod 1 (Desert)
     "rhs_weap_mk18_KAC_bk",                                         // Mk 18 Mod 1 (Black Rail/SOPMOD Stock)
@@ -115,23 +135,61 @@ KPLIB_arsenalWeapons = [
     "rhs_weap_mk18_KAC",                                            // Mk 18 Mod 1 (SOPMOD Stock)
     "rhs_weap_mk18_m320",                                           // Mk 18 Mod 1 (M320)
     "rhs_weap_mk18_wd",                                             // Mk 18 Mod 1 (Woodland)
-    "rhs_weap_mk18",                                                // Mk 18 Mod 1
+    "UK3CB_ACR_Rifle",                                              // Remington ACR-E
+    "UK3CB_ACR_Carbine",                                            // Remington ACR-E(Carbine)
+    "UK3CB_ACR_Crew",                                               // Remington ACR-E(Compact)
+    "UK3CB_ACR_Rifle_Long",                                         // Remington ACR-E(Long)
+    "UK3CB_ACR_Carbine_UGL",                                        // Remington ACR-E M203(Carbine)
+    "Tier1_MK48_Mod0",                                              // Mk 48 Mod 0	
+	"Tier1_MK48_Mod0_Desert",                                       // Mk 48 Mod 0(Desert)
+    "Tier1_MK48_Mod0_Para",                                         // Mk 48 Mod 0(Para)
+    "Tier1_MK48_Mod0_Para_Desert",                                  // Mk 48 Mod 0(Para)(Desert)
+    "Tier1_MK48_Mod1",                                              // Mk 48 Mod 1(Savit)
+    "Tier1_MK48_Mod1_Desert",                                       // Mk 48 Mod 1(Savit)(Desert)	
+    "Tier1_SIG_MCX_115_Virtus",                                     // MCX 11.5 Virtus
+    "Tier1_SIG_MCX_115_Virtus_Black",                               // MCX 11.5 Virtus(Black)	
+    "Tier1_SIG_MCX_115_Virtus_Desert",                              // MCX 11.5 Virtus(Desert)
+    "Tier1_SIG_MCX_115_Virtus_FDE",                                 // MCX 11.5 Virtus(FDE)
+    "Tier1_SIG_MCX_115_Virtus_300BLK",                              // MCX 11.5 Virtus(.300BLK)
+    "Tier1_SIG_MCX_115_Virtus_300BLK_Black",                        // MCX 11.5 Virtus(.300BLK)(Black)
+    "Tier1_SIG_MCX_115_Virtus_300BLK_Desert",                       // MCX 11.5 Virtus(.300BLK)(Desert)
+	"Tier1_SIG_MCX_115_Virtus_300BLK_FDE",                          // MCX 11.5 Virtus(.300BLK)(FDE)
     "rhs_weap_SCARH_USA_CQC",                                       // SCAR-H (USA/CQC)
     "rhs_weap_SCARH_USA_LB",                                        // SCAR-H (USA/LB)
     "rhs_weap_SCARH_USA_STD",                                       // SCAR-H (USA/STD)
-    "rhs_weap_smaw_green",                                          // MK153 Mod 0 SMAW (Green)
-    "rhs_weap_smaw",                                                // MK153 Mod 0 SMAW (Black)
+	"Tier1_SR16_Carbine_Mod2_MFT_Black",                            // SR-16 Carbine Mod2 M-LOK (MFT)
+	"Tier1_SR16_Carbine_Mod2_MFT_FDE",                              // SR-16 Carbine Mod2 M-LOK (MFT)(FDE)
+	"Tier1_SR16_CQB_Mod2_IMOD_Black",                               // SR-16 CQB Mod2 M-LOK (IMOD)
+	"Tier1_SR16_CQB_Mod2_IMOD_FDE",                                 // SR-16 CQB Mod2 M-LOK (IMOD)(Desert)
     "rhs_weap_sr25_d",                                              // Mk 11 Mod 0 (Desert)
     "rhs_weap_sr25_ec_d",                                           // Mk 11 Mod 0 (EC/Desert)
     "rhs_weap_sr25_ec_wd",                                          // Mk 11 Mod 0 (EC/Woodland)
     "rhs_weap_sr25_ec",                                             // Mk 11 Mod 0 (EC)
     "rhs_weap_sr25_wd",                                             // Mk 11 Mod 0 (Woodland)
-    "rhs_weap_sr25",                                                // Mk 11 Mod 0
+    "rhs_weap_sr25",                                                // Mk 11 Mod 0	
+    "Tier1_M110k1",                                                 // M110k1	
+    "Tier1_M110k5_ACS",                                             // m110k5 M-LOK(ACS)
+    "Tier1_M110k5_ACS_65mm",                                        // m110k5 M-LOK(ACS)(6.5mm)
+    "Tier1_SR25",                                                   // SR-25
+    "Tier1_SR25_tan",                                               // SR-25(Tan)
+    "Tier1_SR25_EC",                                                // SR-25 EC
+    "Tier1_SR25_EC_tan",                                            // SR-25 EC(Tan)
     "rhs_weap_XM2010_d",                                            // M2010 ESR (Desert)
     "rhs_weap_XM2010_sa",                                           // M2010 ESR (Semi-arid)
     "rhs_weap_XM2010_wd",                                           // M2010 ESR (Camo)
     "rhs_weap_XM2010",                                              // M2010 ESR
+	"rhs_weap_smaw_green",                                          // MK153 Mod 0 SMAW (Green)
+    "rhs_weap_smaw",                                                // MK153 Mod 0 SMAW (Black)
     "rhsusf_weap_glock17g4",                                        // Glock 17
+    "Tier1_Glock19_Urban",                                          // Glock 19 Urban
+    "Tier1_Glock19_WAR",                                            // Glock 19 WAR
+    "Tier1_Glock19_Urban_TB",                                       // Glock 19(TB)Urban
+    "Tier1_Glock19_WAR_TB",                                         // Glock 19(TB)WAR
+    "Tier1_Glock22",                                                // Glock 22
+    "Tier1_Glock22_TB",                                             // Glock 22(TB)
+    "Tier1_P320",                                                   // P320
+    "Tier1_P320_PMM",                                               // P320(PMM)
+    "Tier1_P320_TB",                                                // P320(TB)	
     "rhsusf_weap_m1911a1",                                          // M1911A1
     "rhsusf_weap_m9",                                               // M9 Beretta
     "rhsusf_weap_MP7A2_aor1",                                       // MP7A2 (AOR1)
@@ -210,6 +268,12 @@ KPLIB_arsenalMagazines = [
     "rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",                       // 30rnd STANAG (Puller) Mk318 Mod 0
     "rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger",                     // 30rnd STANAG (Ranger) Mk318 Mod 0
     "rhs_mag_30Rnd_556x45_Mk318_Stanag",                            // 30rnd STANAG Mk318 Mod 0
+    "Tier1_30Rnd_762x35_300BLK_PMAG",                               // 30rnd PMAG .300 AAC Blackout EPR
+    "Tier1_30Rnd_762x35_300BLK_PMAG_Tan",                           // 30rnd PMAG .300 AAC Blackout EPR
+    "Tier1_30Rnd_762x35_300BLK_SMK_PMAG",                           // 30rnd PMAG .300 Custom Combat TAC-TX
+    "Tier1_30Rnd_762x35_300BLK_SMK_PMAG_Tan",                       // 30rnd PMAG .300 Custom Combat TAC-TX
+    "Tier1_30Rnd_762x35_300BLK_RNBT_PMAG",                          // 30rnd PMAG .300 RNBT(Tracer)
+    "Tier1_30Rnd_762x35_300BLK_RNBT_PMAG_Tan",                      // 30rnd PMAG .300 RNBT(Tracer)
     "rhs_mag_an_m14_th3",                                           // AN-M14 TH3 Invendenary Grenade
     "rhs_mag_an_m8hc",                                              // AN-M8HC White Smooke
     "rhs_mag_m18_green",                                            // M18 Green Smoke Grenade
@@ -242,8 +306,8 @@ KPLIB_arsenalMagazines = [
     "rhs_mag_smaw_HEDP",                                            // Mk.3 HEDP
     "rhs_mag_smaw_SR",                                              // Mk.217 Spotting
     "rhs_mine_M19_mag",                                             // M19
-    "rhsusf_100Rnd_556x45_M200_soft_pouch_coyote",                  // 100rnd M249 Softpack M855
-    "rhsusf_100Rnd_556x45_M200_soft_pouch_ucp",                     // 100rnd M249 Softpack M200
+    "rhsusf_100Rnd_556x45_M200_soft_pouch_coyote",                  // 100rnd M249 Softpack M200
+    "rhsusf_100Rnd_556x45_M200_soft_pouch_ucp",                     // 100rnd M249 Softpack M200 
     "rhsusf_100Rnd_556x45_M200_soft_pouch",                         // 100rnd M249 Softpack M200
     "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",            // 100rnd M249 Softpack M855 (Mixed)
     "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_ucp",               // 100rnd M249 Softpack M855 (Mixed)
@@ -257,6 +321,18 @@ KPLIB_arsenalMagazines = [
     "rhsusf_100Rnd_556x45_soft_pouch_coyote",                       // 100rnd M249 Softpack M855A1
     "rhsusf_100Rnd_556x45_soft_pouch_ucp",                          // 100rnd M249 Softpack M855A1
     "rhsusf_100Rnd_556x45_soft_pouch",                              // 100rnd M249 Softpack M855A1
+    "Tier1_100Rnd_762x51_Belt_M61_AP",                              // 100rnd Ammo Belt M61 AP
+    "Tier1_100Rnd_762x51_Belt_M62_Tracer",                          // 100rnd Ammo Belt M62(Tracer)
+    "Tier1_100Rnd_762x51_Belt_M80",                                 // 100rnd Ammo Belt M80
+    "Tier1_100Rnd_762x51_Belt_M80A1_EPR",                           // 100rnd Ammo Belt M80A1 EPR
+    "Tier1_100Rnd_762x51_Belt_M82_Blank",                           // 100rnd Ammo Belt M82(Blank)
+    "Tier1_100Rnd_762x51_Belt_M993_AP",                             // 100rnd Ammo Belt M993AP
+    "Tier1_250Rnd_762x51_Belt_M61_AP",                              // 250rnd Ammo Belt M61 AP
+    "Tier1_250Rnd_762x51_Belt_M62_Tracer",                          // 250rnd Ammo Belt M62(Tracer)
+    "Tier1_250Rnd_762x51_Belt_M80",                                 // 250rnd Ammo Belt M80
+    "Tier1_250Rnd_762x51_Belt_M80A1_EPR",                           // 250rnd Ammo Belt M80A1 EPR
+    "Tier1_250Rnd_762x51_Belt_M82_Blank",                           // 250rnd Ammo Belt M82(Blank)
+    "Tier1_250Rnd_762x51_Belt_M993_AP",                             // 250rnd Ammo Belt M993AP
     "rhsusf_100Rnd_762x51_m61_ap",                                  // 100rnd M240 Box M61 AP
     "rhsusf_100Rnd_762x51_m62_tracer",                              // 100rnd M240 Box M62 (Tracer)
     "rhsusf_100Rnd_762x51_m80a1epr",                                // 100rnd M240 Box M80A1 EPR
@@ -288,6 +364,14 @@ KPLIB_arsenalMagazines = [
     "rhsusf_20Rnd_762x51_SR25_m62_Mag",                             // 20rnd SR-25 M62 (Tracer)
     "rhsusf_20Rnd_762x51_SR25_m993_Mag",                            // 20rnd SR-25 M993 AP
     "rhsusf_20Rnd_762x51_SR25_mk316_special_Mag",                   // 20rnd SR-25 Mk316 Mod 0
+    "Tier1_20Rnd_762x51_M118_Special_SR25_Mag",                     // 20rnd SR-25/M110 M118
+    "Tier1_20Rnd_762x51_M61_AP_SR25_Mag",                           // 20rnd SR-25/M110 M61 AP
+    "Tier1_20Rnd_762x51_M62_SR25_Mag",                              // 20rnd SR-25/M110 M62(Tracer)
+    "Tier1_20Rnd_762x51_M80_ball_SR25_Mag",                         // 20rnd SR-25/M110 M80 Ball
+    "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",                        // 20rnd SR-25/M110 M80A1 EPR
+    "Tier1_20Rnd_762x51_M993_SR25_Mag",                             // 20rnd SR-25/M110 M993 AP
+    "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",                        // 20rnd SR-25/M110 Mk316 Mod 0
+    "Tier1_20Rnd_65x48_Creedmoor_SR25_Mag",                         // 20rnd SR-25/M110 6.5mm Creedmoor
     "rhsusf_50Rnd_762x51_m61_ap",                                   // 50rnd M240 Softpack M61 AP
     "rhsusf_50Rnd_762x51_m62_tracer",                               // 50rnd M240 Softpack M62 (Tracer)
     "rhsusf_50Rnd_762x51_m80a1epr",                                 // 50rnd M240 Softpack M80A1 EPR
@@ -316,6 +400,18 @@ KPLIB_arsenalMagazines = [
     "rhsusf_mag_15Rnd_9x19_JHP",                                    // 15rnd M9 Mk243 JHP
     "rhsusf_mag_17Rnd_9x19_FMJ",                                    // 17rnd Glock M882 FMJ
     "rhsusf_mag_17Rnd_9x19_JHP",                                    // 17rnd Glock Mk243 JHP
+    "Tier1_15Rnd_9x19_FMJ",                                         // 15rd Glock M882 FMJ
+    "Tier1_15Rnd_9x19_JHP",                                         // 15rd Glock Mk243 JHP
+    "Tier1_15Rnd_40SW_JHP",                                         // 15rd Glock Mk308 JHP
+    "Tier1_15Rnd_40SW_FMJ",                                         // 15rd Glock Mk309 FMJ
+    "Tier1_17Rnd_9x19_P320_FMJ",                                    // 17rnd P320 M882 FMJ
+    "Tier1_17Rnd_9x19_P320_JHP",                                    // 17rnd P320 Mk243 JHP
+    "Tier1_20Rnd_9x19_FMJ",                                         // 20rnd Glock M882 FMJ
+    "Tier1_20Rnd_9x19_JHP",                                         // 20rnd Glock Mk243 JHP
+    "Tier1_20Rnd_40SW_JHP",                                         // 20rnd Glock Mk308 JHP
+    "Tier1_20Rnd_40SW_FMJ",                                         // 20rnd Glock Mk309 FMJ
+	"Tier1_21Rnd_9x19_P320_FMJ",                                    // 21rnd P320 Mk882 FMJ
+    "Tier1_21Rnd_9x19_P320_JHP",                                    // 21rnd P320 Mk243 JHP
     "rhsusf_mag_40Rnd_46x30_AP",                                    // 40rnd MP7 SX AP
     "rhsusf_mag_40Rnd_46x30_FMJ",                                   // 40rnd MP7 SX FMJ
     "rhsusf_mag_40Rnd_46x30_JHP",                                   // 40rnd MP7 SX JHP
@@ -337,6 +433,9 @@ KPLIB_arsenalMagazines = [
     "rhsusf_mine_m49a1_10m_mag",                                    // M49A1 (10m)
     "rhsusf_mine_m49a1_3m_mag",                                     // M49A1 (3m)
     "rhsusf_mine_m49a1_6m_mag",                                     // M49A1 (6m)
+    "murshun_cigs_cigpack",                                         // Cig Pack
+    "murshun_cigs_lighter",                                         // Lighter
+    "murshun_cigs_matches"                                          // Matches
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
@@ -931,26 +1030,11 @@ KPLIB_arsenalItems = [
     "ACE_wirecutter",                                               // Wirecutter
     "ACE_Yardage450",                                               // Yardage 450
 
-    // ACRE Items
-    "ACRE_PRC117F",                                                 // AN/PRC-117F
-    "ACRE_PRC148",                                                  // AN/PRC-148
-    "ACRE_PRC152",                                                  // AN/PRC-152
-    "ACRE_PRC343",                                                  // AN/PRC-343
-    "ACRE_PRC77",                                                   // AN/PRC-77
-    "ACRE_SEM52SL",                                                 // SEM 52 SL
-    "ACRE_SEM70",                                                   // SEM 70
-    "ACRE_VHF30108",                                                // VHF30108 GSM
-    "ACRE_VHF30108MAST",                                            // VHF30108 Mast
-    "ACRE_VHF30108SPIKE",                                           // VHF30108 GS
-
     // TFAR Items
     "tf_anprc148jem",                                               // AN/PRC-148 JEM
     "tf_anprc152",                                                  // AN/PRC-152
     "tf_anprc154_1",                                                // AN/PRC-154
-    "tf_fadak",                                                     // FADAK
     "tf_microdagr",                                                 // MicroDAGR Radio Programmer
-    "tf_pnr1000a_1",                                                // PNR-1000A
-    "tf_rf7800str"                                                  // PF-7800S-TR
 ];
 
 KPLIB_arsenalBackpacks = [

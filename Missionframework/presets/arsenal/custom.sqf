@@ -1084,7 +1084,7 @@ KPLIB_arsenalItems = [
     "tf_anprc148jem",                                               // AN/PRC-148 JEM
     "tf_anprc152",                                                  // AN/PRC-152
     "tf_anprc154_1",                                                // AN/PRC-154
-    "tf_microdagr",                                                 // MicroDAGR Radio Programmer
+    "tf_microdagr"                                                  // MicroDAGR Radio Programmer
 ];
 
 KPLIB_arsenalBackpacks = [

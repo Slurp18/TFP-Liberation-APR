@@ -276,7 +276,10 @@ KPLIB_b_vehSupport = [
     ["rhsusf_M977A4_AMMO_usarmy_d",125,200,75],                         // M977A4 Ammo
 	["rhsusf_M1083A1P2_D_open_fmtv_usarmy",125,0,75],                   // M1083A1P2 Transport
     ["rhsusf_M1083A1P2_D_fmtv_usarmy",125,0,75],                        // M1083A1P2 Transport (Covered)
-    ["rhsusf_M1083A1P2_D_flatbed_fmtv_usarmy",100,0,50]                 // M1083A1P2
+    ["rhsusf_M1083A1P2_D_flatbed_fmtv_usarmy",100,0,50],                // M1083A1P2
+    ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
+    ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
+    ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
 ];
 
 /*

@@ -687,10 +687,6 @@ KPLIB_arsenalItems = [
     "rhsusf_opscore_ut",                                            // FAST Ballistic (Urban Tan)
     "rhsusf_patrolcap_ocp",                                         // Patrol Cap OEF-CP
     "rhsusf_patrolcap_ucp",                                         // Patrol Cap UCP
-    "rhsusf_protech_helmet_ess",                                    // Pro-Tech SF (ESS)
-    "rhsusf_protech_helmet_rhino_ess",                              // Pro-Tech SF (Rhino/ESS)
-    "rhsusf_protech_helmet_rhino",                                  // Pro-Tech SF (Rhino)
-    "rhsusf_protech_helmet",                                        // Pro-Tech SF
 
     // Facegear
     "rhs_ess_black",                                                // Ballistic Goggles (Black)
@@ -709,6 +705,8 @@ KPLIB_arsenalItems = [
     "rhsusf_shemagh_od",                                            // Shemagh (OD)
     "rhsusf_shemagh_tan",                                           // Shemagh (Tan)
     "rhsusf_shemagh_white",                                         // Shemagh (White)
+    "UK3CB_G_Neck_Shemag_Tan",                                      // Neck Shemagh (Tan)
+    "UK3CB_G_Neck_Shemag",                                          // Neck Shemagh (White)	
     "rhsusf_shemagh2_gogg_grn",                                     // Shemagh w/ Goggles (Green/alt)
     "rhsusf_shemagh2_gogg_od",                                      // Shemagh w/ Goggles (OD/alt)
     "rhsusf_shemagh2_gogg_tan",                                     // Shemagh w/ Goggles (Tan/alt)
@@ -717,6 +715,17 @@ KPLIB_arsenalItems = [
     "rhsusf_shemagh2_od",                                           // Shemagh (OD/alt)
     "rhsusf_shemagh2_tan",                                          // Shemagh (Tan/alt)
     "rhsusf_shemagh2_white",                                        // Shemagh (White/alt)
+    "G_Balaclava_TI_G_blk_F",                                       // Stealth Balaclava(Black/Goggles)
+	"UK3CB_G_Tactical_Black_Shemagh_Green",                         // Tactical Glasses	+ Neck Shemagh (Black/Green)
+    "UK3CB_G_Tactical_Black_Shemagh_Tan",                           // Tactical Glasses	+ Neck Shemagh (Black/Tan)
+    "UK3CB_G_Tactical_Black_Shemagh_White",                         // Tactical Glasses	+ Neck Shemagh (Black/White)
+    "UK3CB_G_Tactical_Clear_Shemagh_Green",                         // Tactical Glasses	+ Neck Shemagh (Clear/Green)
+    "UK3CB_G_Tactical_Clear_Shemagh_Tan",                           // Tactical Glasses	+ Neck Shemagh (Clear/Tan)
+    "UK3CB_G_Tactical_Clear_Shemagh_White",                         // Tactical Glasses	+ Neck Shemagh (Clear/White)
+    "UK3CB_G_Bandanna_aviator_brown_check",                         // Bandanna (Aviator Brown Pattern)
+    "G_Bandanna_Skull1",                                            // Bandanna (Skull)
+    "G_Bandanna_Syndikat1",                                         // Bandanna (Skull/Syndikat)
+    "G_Bandanna_Skull2",                                            // Bandanna (Skull/Ornamental)	
 
     // Vests
     "rhsusf_iotv_ocp_Grenadier",                                    // IOTV (Grenadier/OEF-CP)
@@ -922,11 +931,14 @@ KPLIB_arsenalItems = [
     "rhsusf_ANPVS_14",                                              // AN/PVS-14
     "rhsusf_ANPVS_15",                                              // AN/PVS-15
     "rhsusf_bino_leopold_mk4",                                      // M151 Spotting Scope
+    "Rangefinder",                                                  // Rangefinder	
     "rhsusf_bino_lerca_1200_black",                                 // Lecra 1200 Rangefinder (Black)
     "rhsusf_bino_lerca_1200_tan",                                   // Lecra 1200 Rangefinder (Tan)
     "rhsusf_bino_lrf_Vector21",                                     // Vecrot 21-B
     "rhsusf_bino_m24_ARD",                                          // M24 Binoculars (ARD)
     "rhsusf_bino_m24",                                              // M24 Binoculars
+    "Laserdesignator",                                              // LaserDesignator(Tan)	
+    "Laserdesignator_03",                                           // LaserDesignator(Olive)	
     "rhsusf_Rhino",                                                 // Rhino mount
     "JAS_GPNVG18_blk",                                              // GPNVG-18 (Black)
     "JAS_GPNVG18_Tan",                                              // GPNVG-18 (Tan)
@@ -936,47 +948,81 @@ KPLIB_arsenalItems = [
     "Tier1_Razor_Gen3_110_Geissele_Docter",                         // Vortex Razor HD GENIII/GAM/Doctor III
     "Tier1_Eotech551_L3_Black_Up",                                  // Eotech 551/L3
     "Tier1_Eotech551_L3_Desert_Up",                                 // Eotech 551/L3 (Desert)
-    "Tier1_URX4_LA5_M600V_alt",                                     // DMR/LA5B/M600V(Tan)(Laser)
-    "Tier1_URX4_LA5_M600V_alt_FL",                                  // DMR/LA5B/M600V(Tan)(Light)
-    "Tier1_URX4_NGAL_M600V_alt",                                    // DMR/NGAL/M600V(Tan)(Laser)
-    "Tier1_URX4_NGAL_M600V_alt_FL",                                 // DMR/NGAL/M600V(Tan)(Light)
-    "Tier1_MW_LA5_M600V",                                           // HK416D10/LA5B/M600V(Tan)(Laser)	
-    "Tier1_MW_LA5_M600V_FL",                                        // HK416D10/LA5B/M600V(Tan)(Light)	
-    "Tier1_MW_NGAL_M600V",                                          // HK416D10/NGAL/M600V(Tan)(Laser)	
-    "Tier1_MW_NGAL_M600V_FL",                                       // HK416D10/NGAL/M600V(Tan)(Light)	
-    "Tier1_145_LA5_M600V",                                          // HK416 14.5/LA5B/M600V(Tan)(Laser)	
-    "Tier1_145_LA5_M600V_FL",                                       // HK416 14.5/LA5B/M600V(Tan)(Light)
-    "Tier1_145_NGAL_M600V",                                         // HK416 14.5/NGAL/M600V(Tan)(Laser)
-    "Tier1_145_NGAL_M600V_FL",                                      // HK416 14.5/NGAL/M600V(Tan)(Light)	
-    "Tier1_MCX_LA5_M600V",                                          // MCX/LA5B/M600V(Tan)(Laser)
-    "Tier1_MCX_LA5_M600V_FL",                                       // MCX/LA5B/M600V(Tan)(Light)
-    "Tier1_MCX_NGAL_M600V",                                         // MCX/NGAL/M600V(Tan)(Laser)
-    "Tier1_MCX_NGAL_M600V_FL",                                      // MCX/NGAL/M600V(Tan)(Light)
-	"Tier1_M4BII_LA5_M600V",                                        // M4BII/LA5B/M600V(Tan)(Laser)
-    "Tier1_M4BII_LA5_M600V_FL",                                     // M4BII/LA5B/M600V(Tan)(Light)
-    "Tier1_M4BII_NGAL_M600V",                                       // M4BII/NGAL/M600V(Tan)(Laser)	
-    "Tier1_M4BII_NGAL_M600V_FL",                                    // M4BII/NGAL/M600V(Tan)(Light)	
-    "Tier1_Mk18_LA5_M600V",                                         // MK18/LA5B/M600V(Tan)(Laser)	
-    "Tier1_Mk18_LA5_M600V_FL",                                      // MK18/LA5B/M600V(Tan)(Light)
-    "Tier1_Mk18_NGAL_M600V",                                        // MK18/NGAL/M600V(Tan)(Laser)	
-    "Tier1_Mk18_NGAL_M600V_FL",                                     // MK18/NGAL/M600V(Tan)(Light)	
-    "Tier1_SCAR_LA5_M600V",                                         // SCAR/LA5B/M600V(Tan)(Laser)
-    "Tier1_SCAR_LA5_M600V_FL",                                      // SCAR/LA5B/M600V(Tan)(Light)	
-    "Tier1_SCAR_NGAL_M600V",                                        // SCAR/NGAL/M600V(Tan)(Laser)
-    "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
-    "Tier1_M249_LA5_M600V",                                         // M249/LA5B/M600V(Tan)(Laser)
-    "Tier1_M249_LA5_M600V_FL",                                      // M249/LA5B/M600V(Tan)(Laser)	
-    "Tier1_Mk48Mod0_LA5_M600V",                                     // Mk48/LA5B/M600V(Tan)(Laser)
-    "Tier1_Mk48Mod0_LA5_M600V_FL",                                  // Mk48/LA5B/M600V(Tan)(Light)
-    "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
-    "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
-    "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V(Tan)(Light)
+    "Tier1_URX4_LA5_M600V_alt",                                     // DMR/LA5B/M600V (Tan)/alt(Laser)
+    "Tier1_URX4_LA5_M600V_alt_FL",                                  // DMR/LA5B/M600V (Tan)/alt(Light)
+    "Tier1_URX4_NGAL_M600V_alt",                                    // DMR/NGAL/M600V (Tan)/alt(Laser)
+    "Tier1_URX4_NGAL_M600V_alt_FL",                                 // DMR/NGAL/M600V (Tan)/alt(Light)
+    "Tier1_MW_LA5_M600V",                                           // HK416D10/LA5B/M600V (Tan)(Laser)	
+    "Tier1_MW_LA5_M600V_FL",                                        // HK416D10/LA5B/M600V (Tan)(Light)	
+    "Tier1_MW_NGAL_M600V",                                          // HK416D10/NGAL/M600V (Tan)(Laser)	
+    "Tier1_MW_NGAL_M600V_FL",                                       // HK416D10/NGAL/M600V (Tan)(Light)	
+    "Tier1_145_LA5_M600V",                                          // HK416 14.5/LA5B/M600V (Tan)(Laser)	
+    "Tier1_145_LA5_M600V_FL",                                       // HK416 14.5/LA5B/M600V (Tan)(Light)
+    "Tier1_145_NGAL_M600V",                                         // HK416 14.5/NGAL/M600V (Tan)(Laser)
+    "Tier1_145_NGAL_M600V_FL",                                      // HK416 14.5/NGAL/M600V (Tan)(Light)	
+    "Tier1_MCX_LA5_M600V",                                          // MCX/LA5B/M600V (Tan)(Laser)
+    "Tier1_MCX_LA5_M600V_FL",                                       // MCX/LA5B/M600V (Tan)(Light)
+    "Tier1_MCX_NGAL_M600V",                                         // MCX/NGAL/M600V (Tan)(Laser)
+    "Tier1_MCX_NGAL_M600V_FL",                                      // MCX/NGAL/M600V (Tan)(Light)
+	"Tier1_M4BII_LA5_M600V",                                        // M4BII/LA5B/M600V (Tan)(Laser)
+    "Tier1_M4BII_LA5_M600V_FL",                                     // M4BII/LA5B/M600V (Tan)(Light)
+    "Tier1_M4BII_NGAL_M600V",                                       // M4BII/NGAL/M600V (Tan)(Laser)	
+    "Tier1_M4BII_NGAL_M600V_FL",                                    // M4BII/NGAL/M600V (Tan)(Light)	
+    "Tier1_Mk18_LA5_M600V",                                         // MK18/LA5B/M600V (Tan)(Laser)	
+    "Tier1_Mk18_LA5_M600V_FL",                                      // MK18/LA5B/M600V (Tan)(Light)
+    "Tier1_Mk18_NGAL_M600V",                                        // MK18/NGAL/M600V (Tan)(Laser)	
+    "Tier1_Mk18_NGAL_M600V_FL",                                     // MK18/NGAL/M600V (Tan)(Light)	
+    "Tier1_SCAR_LA5_M600V",                                         // SCAR/LA5B/M600V (Tan)(Laser)
+    "Tier1_SCAR_LA5_M600V_FL",                                      // SCAR/LA5B/M600V (Tan)(Light)	
+    "Tier1_SCAR_NGAL_M600V",                                        // SCAR/NGAL/M600V (Tan)(Laser)
+    "Tier1_SCAR_NGAL_M600V_FL",                                     // SCAR/NGAL/M600V (Tan)(Light)
+    "Tier1_M249_LA5_M600V",                                         // M249/LA5B/M600V (Tan)(Laser)
+    "Tier1_M249_LA5_M600V_FL",                                      // M249/LA5B/M600V (Tan)(Light)	
+    "Tier1_Mk48Mod0_LA5_M600V",                                     // Mk48/LA5B/M600V (Tan)(Laser)
+    "Tier1_Mk48Mod0_LA5_M600V_FL",                                  // Mk48/LA5B/M600V (Tan)(Light)
+    "DRNP_RD",                                                      // Remote Designator
     "DRNP_RD",                                                      // Remote Designator
     "DRNP_AR2P",                                                    // AR-2 (Portable)
     "DRNP_AL6P",                                                    // AL-6 (Portable)
     "immersion_cigs_cigar0_nv",                                     // Cigar (NVG Slot)
     "murshun_cigs_cig0_nv",                                         // Cigarette (NVG Slot)
-
+    "Tier1_AAC_M42000_Black",                                       // AAC-M4 2000 (Black)
+    "Tier1_AAC_M42000_Desert",                                      // AAC-M4 2000 (Desert)
+    "Tier1_KAC_556_QDC_Black",                                      // KAC 5.56 QDC (Black)
+    "Tier1_KAC_556_QDC_Tan",                                        // KAC 5.56 QDC (Tan)
+    "Tier1_KAC_556_QDC_CQB_Black",                                  // KAC 5.56 QDC/CQB (Black)
+    "Tier1_KAC_556_QDC_CQB_Tan",                                    // KAC 5.56 QDC/CQB (Tan)
+    "Tier1_RotexIIIC_DE",                                           // Rotex-IIIC (Desert)
+    "Tier1_RotexIIIC_Grey",                                         // Rotex-IIIC (Gray)
+    "Tier1_SOCOM556_2_Mini_Black",                                  // Surefire SOCOM 556-Mini2 (Black)
+    "Tier1_SOCOM556_2_Mini_DE",                                     // Surefire SOCOM 556-Mini2 (Desert)
+    "Tier1_SOCOM556_2_Black",                                       // Surefire SOCOM 556-RC2 (Black)
+    "Tier1_SOCOM556_2_DE",                                          // Surefire SOCOM 556-RC2 (Desert)
+    "Tier1_KAC_762_DSR",                                            // KAC 7.62 DSR	(Tan)
+    "Tier1_KAC_762_QDC_Black",                                      // KAC 7.62 QDC/CRS
+    "Tier1_KAC_762_QDC_Tan",                                        // KAC 7.62 QDC/CRS	(Tan)
+    "Tier1_SRD762_Black",                                           // SIG Sauer SRD762 (Black)
+    "Tier1_SRD762_Desert",                                          // SIG Sauer SRD762 (Desert)
+    "Tier1_SOCOM762_2_Mini_Black",                                  // Surefire SOCOM 762-Mini2 (Black)
+    "Tier1_SOCOM762_2_Mini_DE",                                     // Surefire SOCOM 762-Mini2 (Desert)
+    "Tier1_SOCOM762_2_Black",                                       // Surefire SOCOM 762-RC2 (Black)
+    "Tier1_SOCOM762_2_DE",                                          // Surefire SOCOM 762-RC2 (Desert)
+    "Tier1_SOCOM762MG_Black",                                       // Surefire SOCOM 762-MG (Black)
+    "Tier1_SOCOM762MG_DE",                                          // Surefire SOCOM 762-MG (Desert)
+    "Tier1_DD_VFG_DE",                                              // DD VFG (DE)
+    "Tier1_DD_MLOK_VFG_FDE",                                        // DD VFG M-LOK (FDE)
+    "Tier1_AFG_MLOK_FDE",                                           // M-LOK AFG (FDE)
+    "Tier1_MVG_MLOK_FDE",                                           // M-LOK MVG (FDE)
+    "Tier1_RVG_MLOK_FDE",                                           // M-LOK RVG (FDE)	
+    "Tier1_GripPod_Tan",                                            // Grip Pod (Tan)
+    "Tier1_KAC_VFG_DE",                                             // KAC VFG (DE)	
+	"Tier1_Larue_FUG_UDE",                                          // Larue FUG (UDE)
+	"Tier1_Harris_Bipod_RVG_tan",                                   // RVG/Harris Bipod	(Desert)
+	"Tier1_BCM_Gunfighter_VG_Black",                                // BCM Gunfighter VG Mod3 MLOK
+	"Tier1_BCM_Gunfighter_VG_FDE",                                  // BCM Gunfighter VG Mod3 MLOK (FDE)	
+	"Tier1_SAW_Bipod_DD",                                           // DD VFG/SAW Improved Bipod
+	"Tier1_SAW_Bipod_DD_Desert",                                    // DD VFG/SAW Improved Bipod (Desert)
+	
     // Vanilla Standard Items
     "acc_flashlight_pistol",                                        // Pistol Flashlight
     "B_UavTerminal",                                                // UAV Terminal [NATO]
@@ -999,6 +1045,11 @@ KPLIB_arsenalItems = [
     "U_B_T_FullGhillie_tna_F",                                      // Full Ghillie (Jungle) [NATO]
     "U_B_Wetsuit",                                                  // Wetsuit [NATO]
     "V_RebreatherB",                                                // Rebreather [NATO]
+	
+    // Ctab
+    "ItemAndroid",                                                  // GD300 Android
+    "ItemMicroDAGR",                                                // MicroDAGR
+	"ItemcTab",                                                     // Rugged Tablet
 
     // ACE Items
     "ACE_acc_pointer_green",                                        // Laser Pointer (green)
@@ -1081,10 +1132,10 @@ KPLIB_arsenalItems = [
     "ACE_Yardage450",                                               // Yardage 450
 
     // TFAR Items
-    "tf_anprc148jem",                                               // AN/PRC-148 JEM
-    "tf_anprc152",                                                  // AN/PRC-152
-    "tf_anprc154_1",                                                // AN/PRC-154
-    "tf_microdagr"                                                  // MicroDAGR Radio Programmer
+    "TFAR_anprc148jem",                                             // AN/PRC-148 JEM
+    "TFAR_anprc152",                                                // AN/PRC-152
+    "TFAR_anprc154",                                                // AN/PRC-154
+    "TFAR_microdagr"                                                // MicroDAGR Radio Programmer
 ];
 
 KPLIB_arsenalBackpacks = [
@@ -1095,12 +1146,20 @@ KPLIB_arsenalBackpacks = [
     "rhsusf_eject_Parachute_backpack",                              // Static Parachute Bag
     "rhsusf_falconii_coy",                                          // Falcon-II Coyote
     "rhsusf_falconii_mc",                                           // Falcon-II MC
-    "rhsusf_falconii",                                              // Falcon-II RGR
+    "rhsusf_falconii",                                              // Falcon-II RGR	
+	"UK3CB_LSM_I_B_CARRYALL_RADIO_KHK",                             // Carryall Backpack AN/PRC 155(Khaki)
+    "UK3CB_LSM_I_B_CARRYALL_RADIO_OLI",                             // Carryall Backpack AN/PRC 155(Olive)
+    "UK3CB_US_B_B_RIF_Radio",                                       // Eagle A-III Coyote Radio RT1523g(US)(Brown)
+    "UK3CB_US_B_B_RIF_OCP_Radio",                                   // Eagle A-III OCP Radio RT1523g(US)
+    "UK3CB_US_B_B_RIF_UCP_Radio",                                   // Eagle A-III UCP Radio RT1523g(US)
+    "UK3CB_B_Static_M240_Elcan_Tripod_High_Bag_US_W",               // M240 w/Elcan Tripod Bag(High)
+    "UK3CB_B_Static_M240_Elcan_Tripod_Low_Bag_US_W",                // M240 w/Elcan Tripod Bag(Low)	
 
     // Standard Vanilla Backpacks
     "B_Carryall_cbr",                                               // Carryall Backpack (Coyote)
     "B_Carryall_khk",                                               // Carryall Backpack (Khaki)
     "B_Carryall_oli",                                               // Carryall Backpack (Olive)
+    "B_Carryall_mcamo",                                             // Carryall Backpack (MTP)	
     "B_FieldPack_cbr",                                              // Field Pack (Coyote)
     "B_FieldPack_khk",                                              // Field Pack (Khaki)
     "B_FieldPack_oli",                                              // Field Pack (Olive)
@@ -1114,24 +1173,6 @@ KPLIB_arsenalBackpacks = [
     "ace_gunbag_Tan",                                               // Gunbag (Tan)
     "ace_gunbag",                                                   // Gunbag
     "ACE_NonSteerableParachute",                                    // Non-Steerable Parachute
-    "ACE_TacticalLadder_Pack",                                      // Telescopic Ladder
-
-    // TFAR Backpacks
-    "tf_anarc164",                                                  // AN/ARC-164
-    "tf_anarc210",                                                  // AN/ARC-210
-    "tf_anprc155_coyote",                                           // AN/PRC 155 Coyote
-    "tf_anprc155",                                                  // AN/PRC 155
-    "tf_bussole",                                                   // Assault Pack Bussole
-    "tf_mr3000_multicam",                                           // MR3000 Multicam
-    "tf_mr3000_rhs",                                                // MR3000 RHS
-    "tf_mr3000",                                                    // MR3000
-    "tf_mr6000l",                                                   // MR6000L
-    "tf_rt1523g_big_rhs",                                           // RT-1523G (ASIP) Big RHS
-    "tf_rt1523g_big",                                               // RT-1523G (ASIP) Big
-    "tf_rt1523g_black",                                             // RT-1523G (ASIP) Black
-    "tf_rt1523g_fabric",                                            // RT-1523G (ASIP) Fabric
-    "tf_rt1523g_green",                                             // RT-1523G (ASIP) Green
-    "tf_rt1523g_rhs",                                               // RT-1523G (ASIP) RHS
-    "tf_rt1523g_sage",                                              // RT-1523G (ASIP) Sage
-    "tf_rt1523g"                                                    // RT-1523G (ASIP)
+    "ACE_TacticalLadder_Pack"                                       // Telescopic Ladder
 ];
+

@@ -437,7 +437,8 @@ KPLIB_arsenalMagazines = [
     "rhsusf_mine_m49a1_6m_mag",                                     // M49A1 (6m)
     "murshun_cigs_cigpack",                                         // Cig Pack
     "murshun_cigs_lighter",                                         // Lighter
-    "murshun_cigs_matches",                                          // Matches
+    "murshun_cigs_matches",                                         // Matches
+    "Laserbatteries",                                               // Designator Batteries
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine

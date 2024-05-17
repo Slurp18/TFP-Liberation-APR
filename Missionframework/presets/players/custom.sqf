@@ -129,6 +129,9 @@ KPLIB_b_vehHeavy = [
 ];
 
 KPLIB_b_vehAir = [
+    ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
+    ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                        // MQ-12 Falcon
+    ["B_UAV_05_F",500,500,200],                                         // UCAV Sentinel
     ["RHS_MELB_MH6M",200,0,100],                                        // MH-6M Little Bird
     ["RHS_MELB_AH6M",200,200,100],                                      // AH-6M Pawnee
     ["RHS_UH1Y_UNARMED_d",225,0,125],                                   // UH-1Y (Unarmed)

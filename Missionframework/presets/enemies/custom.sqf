@@ -117,9 +117,9 @@ KPLIB_o_battleGrpVehicles = [
     "UK3CB_TKA_O_Hilux_Zu23_Front",                                     // Hilux (Zu23)
     "UK3CB_TKA_O_T72A",                                                 // T-72A
     "UK3CB_TKA_O_T72A",                                                 // T-72A
-    "UK3CB_TKA_O_T72BM",                                                 // T-72BM
-    "UK3CB_TKA_O_T72BM",                                                 // T-72BM
-	"UK3CB_TKA_O_T72B",                                                  // T-72AV
+    "UK3CB_TKA_O_T72BM",                                                // T-72BM
+    "UK3CB_TKA_O_T72BM",                                                // T-72BM
+	"UK3CB_TKA_O_T72B",                                                 // T-72AV
     "UK3CB_TKA_O_UH1H_M240",                                            // UH-1H (Armed)
     "UK3CB_TKA_O_UH1H_M240",                                            // UH-1H (Armed)
     "UK3CB_TKA_O_Mi8",                                                  // Mil Mi-8 (Transport)
@@ -130,7 +130,7 @@ KPLIB_o_battleGrpVehicles = [
     "UK3CB_TKA_O_Su25SM_CAS",                                           // Su-25 (CAS)
     "UK3CB_TKA_O_Su25SM_CAS",                                           // Su-25 (CAS)
 	"UK3CB_TKA_O_Su25SM_KH29",                                          // Su-25 (KH29)
-    "UK3CB_TKA_O_MIG29SM",                                               // Mig-29SM
+    "UK3CB_TKA_O_MIG29SM",                                              // Mig-29SM
     "UK3CB_TKA_O_MIG29SM"                                               // Mig-29SM
 ];
 
@@ -144,7 +144,9 @@ KPLIB_o_battleGrpVehiclesLight = [
 	"UK3CB_TKA_O_T72A",                                                 // T-72A
     "UK3CB_TKA_O_Hilux_Zu23_Front",                                     // Hilux (Zu23)
     "UK3CB_TKA_O_UH1H_M240",                                            // UH-1H (Armed)
-    "UK3CB_TKA_O_Mi8"                                                   // Mil Mi-8 (Transport)
+    "UK3CB_TKA_O_UH1H_M240",                                            // UH-1H (Armed)
+    "UK3CB_TKA_O_Mi8",                                                  // Mil Mi-8 (Transport)
+    "UK3CB_TKA_O_Mi8",                                                  // Mil Mi-8 (Transport)
     "UK3CB_TKA_O_Su25SM_CAS"                                            // Su-25 (CAS)
 ];
 

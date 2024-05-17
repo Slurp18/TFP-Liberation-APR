@@ -751,6 +751,12 @@ KPLIB_arsenalItems = [
     "rhsusf_mbav_mg",                                               // MBAV (Machinegunner)
     "rhsusf_mbav_rifleman",                                         // MBAV (Rifleman)
     "rhsusf_mbav",                                                  // MBAV
+    "UK3CB_V_MBAV_GRENADIER_MULTI",                                 // MBAV (Grenadier/Multicam) 
+    "UK3CB_V_MBAV_LIGHT_MULTI",                                     // MBAV (Light/Multicam)
+    "UK3CB_V_MBAV_MEDIC_MULTI",                                     // MBAV (Medic/Multicam)
+    "UK3CB_V_MBAV_MG_MULTI",                                        // MBAV (Machinegunner/Multicam)
+    "UK3CB_V_MBAV_RIFLEMAN_MULTI",                                  // MBAV (Rifleman/Multicam)
+    "UK3CB_V_MBAV_MULTI",                                           // MBAV (Multicam)
     "rhsusf_plateframe_grenadier",                                  // Plateframe (Grenadier)
     "rhsusf_plateframe_light",                                      // Plateframe (Light)
     "rhsusf_plateframe_machinegunner",                              // Plateframe (Machinegunner)

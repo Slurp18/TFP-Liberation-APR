@@ -126,7 +126,7 @@ KPLIB_o_battleGrpVehicles = [
 	"UK3CB_TKA_O_Mi8",                                                  // Mil Mi-8 (Transport)
     "UK3CB_TKA_O_Mi_24G",                                               // Mil Mi-24G
 	"UK3CB_TKA_O_Mi_24G_FAB",                                           // Mil Mi-24G (FAB)
-	"UK3CB_TKA_O_Mi_24G_UPK23"                                          // Mil Mi-24G (UPK23)
+	"UK3CB_TKA_O_Mi_24G_UPK23",                                          // Mil Mi-24G (UPK23)
     "UK3CB_TKA_O_Su25SM_CAS",                                           // Su-25 (CAS)
     "UK3CB_TKA_O_Su25SM_CAS",                                           // Su-25 (CAS)
 	"UK3CB_TKA_O_Su25SM_KH29",                                          // Su-25 (KH29)

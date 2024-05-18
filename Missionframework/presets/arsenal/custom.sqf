@@ -1016,15 +1016,32 @@ KPLIB_arsenalItems = [
     "Tier1_SOCOM762_2_DE",                                          // Surefire SOCOM 762-RC2 (Desert)
     "Tier1_SOCOM762MG_Black",                                       // Surefire SOCOM 762-MG (Black)
     "Tier1_SOCOM762MG_DE",                                          // Surefire SOCOM 762-MG (Desert)
+    "Tier1_DD_VFG_Black",                                           // DD VFG
     "Tier1_DD_VFG_DE",                                              // DD VFG (DE)
+    "Tier1_DD_MLOK_VFG_Black",                                      // DD VFG M-LOK
     "Tier1_DD_MLOK_VFG_FDE",                                        // DD VFG M-LOK (FDE)
+    "Tier1_AFG_MLOK_Black",                                         // M-LOK AFG
     "Tier1_AFG_MLOK_FDE",                                           // M-LOK AFG (FDE)
+    "Tier1_MVG_MLOK_Black",                                         // M-LOK MVG
     "Tier1_MVG_MLOK_FDE",                                           // M-LOK MVG (FDE)
-    "Tier1_RVG_MLOK_FDE",                                           // M-LOK RVG (FDE)	
+    "Tier1_RVG_MLOK_Black",                                         // M-LOK RVG
+    "Tier1_RVG_MLOK_FDE",                                           // M-LOK RVG (FDE)
+    "Tier1_GripPod_Black",                                          // Grip Pod
     "Tier1_GripPod_Tan",                                            // Grip Pod (Tan)
-    "Tier1_KAC_VFG_DE",                                             // KAC VFG (DE)	
+    "Tier1_GripPod_MLOK_Black",                                     // M-LOK Grip Pod
+    "Tier1_GripPod_MLOK_Tan",                                       // M-LOK Grip Pod (Tan)
+    "Tier1_KAC_VFG_Black",                                          // KAC VFG
+    "Tier1_KAC_VFG_DE",                                             // KAC VFG (DE)
+	"Tier1_Larue_FUG_Black",                                        // Larue FUG
 	"Tier1_Larue_FUG_UDE",                                          // Larue FUG (UDE)
-	"Tier1_Harris_Bipod_RVG_tan",                                   // RVG/Harris Bipod	(Desert)
+	"Tier1_Harris_Bipod_Black",                                     // Harris Bipod
+	"Tier1_Harris_Bipod_Tan",                                       // Harris Bipod	(Desert)
+	"Tier1_Harris_Bipod_RVG_Black",                                 // RVG/Harris Bipod
+	"Tier1_Harris_Bipod_RVG_tan",                                   // RVG/Harris Bipod (Desert)
+	"Tier1_Harris_Bipod_KAC_MLOK_Black",                            // KAC VFG/Harris Bipod 
+	"Tier1_Harris_Bipod_KAC_MLOK_Tan",                              // KAC VFG/Harris Bipod (Desert)
+	"Tier1_Harris_Bipod_MVG_MLOK_Black",                            // MLOK MVG/Harris Bipod
+	"Tier1_Harris_Bipod_MVG_MLOK_tan",                              // MLOK MVG/Harris Bipod (Desert)
 	"Tier1_BCM_Gunfighter_VG_Black",                                // BCM Gunfighter VG Mod3 MLOK
 	"Tier1_BCM_Gunfighter_VG_FDE",                                  // BCM Gunfighter VG Mod3 MLOK (FDE)	
 	"Tier1_SAW_Bipod_DD",                                           // DD VFG/SAW Improved Bipod

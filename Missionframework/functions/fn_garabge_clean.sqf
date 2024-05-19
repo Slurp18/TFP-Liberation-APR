@@ -15,13 +15,10 @@ private _fnc_distCheck = {
     };
 };
 
-// Debugging messages for moving dead soldiers out of vehicles
-Debug("Moving dead soldiers out of vehicles...");
+
 {
     if !(isNull objectParent _x) then { moveOut _x };
 } forEach allDeadMen;
-Debug("Finished moving soldiers out of vehicles; executing garbage clean.");
-sleep 0.5;
 
 // Deleting all dead entities and various types of objects
 { deleteVehicle _x } forEach allDead;
@@ -30,7 +27,7 @@ sleep 0.5;
 { deleteVehicle _x } forEach (allMissionObjects "Leaflet_05_F");
 { deleteVehicle _x } forEach (allMissionObjects "Ejection_Seat_Base_F");
 
-// Cleanup rebel vehicles
+// Cleanup vehicles
 {
     if !(_x isKindOf "StaticWeapon" or unitIsUAV _x or locked _x > 1) then {
         [_x, 500] call _fnc_distCheck;

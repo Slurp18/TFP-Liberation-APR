@@ -1,7 +1,7 @@
 if (_centerPos isEqualTo [0, 0, 0]) exitWith {["Zero position given"] call BIS_fnc_error; false};
 if (_radius isEqualTo 0) exitWith {["Zero radius given"] call BIS_fnc_error; false};
 if (isNull _caller) exitWith {["Null object given"] call BIS_fnc_error; false};
-if (!canSuspend) exitWith {_this spawn KPLIB_fnc_garbage_clean;};
+if (!canSuspend) exitWith {_this spawn KPLIB_fnc_garbageClean;};
 
 
 

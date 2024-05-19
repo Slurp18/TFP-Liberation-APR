@@ -72,7 +72,7 @@ if (isClass (configFile / "CfgPatches" / "rhsgref_main")) then {
 };
 
 
-[localize "STR_GARBAGE_CLEAN_DONE"] remoteExecCall ["hint", _caller];
+[localize "STR_GARBAGE_CLEAN_DONE"] remoteExec ["hint", _caller];
 sleep 3;
 [""] remoteExecCall ["hintSilent", _targetunits];
 

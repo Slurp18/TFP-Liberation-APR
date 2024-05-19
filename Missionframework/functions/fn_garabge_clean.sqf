@@ -69,4 +69,11 @@ if (isClass (configFile / "CfgPatches" / "rhsgref_main")) then {
     { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_door_gunner");
     { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_wing_left");
     { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_wing_right");
-};
+
+
+
+[localize "STR_GARBAGE_CLEAN_DONE"] remoteExecCall ["hint", _caller];
+sleep 3;
+[""] remoteExecCall ["hintSilent", _targetunits];
+
+true

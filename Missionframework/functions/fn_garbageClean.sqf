@@ -42,11 +42,11 @@ private _fnc_distCheck = {
 { deleteVehicle _x } forEach (allMissionObjects "Ejection_Seat_Base_F");
 
 // Cleanup vehicles
-{
-    if !(_x isKindOf "StaticWeapon" or unitIsUAV _x or locked _x > 1) then {
-        [_x, 500] call _fnc_distCheck;
-    };
-} forEach (vehicles select { _x getVariable ["ownerSide", sideUnknown] == teamPlayer });
+// {
+//    if !(_x isKindOf "StaticWeapon" or unitIsUAV _x or locked _x > 1) then {
+//        [_x, 500] call _fnc_distCheck;
+//    };
+// } forEach (vehicles select { _x getVariable ["ownerSide", sideUnknown] == teamPlayer });
 
 // ACE mod specific cleanup
 if (A3A_hasACE) then {

@@ -977,12 +977,6 @@ KPLIB_arsenalItems = [
     "rhsusf_Rhino",                                                 // Rhino mount
     "JAS_GPNVG18_blk",                                              // GPNVG-18 (Black)
     "JAS_GPNVG18_Tan",                                              // GPNVG-18 (Tan)
-    "Tier1_Elcan_156_C2_Docter_FDE_2D",                             // SpecterDR 1.5x/6x C2 Doctor III [2D]
-    "Tier1_Elcan_156_C2_Docter_FDE_2D",                             // SpecterDR 1.5/6x C2 Doctor III (FDE) [2D]
-    "Tier1_Razor_Gen3_110_ADM_T2",                                  // Vortex Razor HD GENIII/ADM/Micro T-2
-    "Tier1_Razor_Gen3_110_Geissele_Docter",                         // Vortex Razor HD GENIII/GAM/Doctor III
-    "Tier1_Eotech551_L3_Black_Up",                                  // Eotech 551/L3
-    "Tier1_Eotech551_L3_Desert_Up",                                 // Eotech 551/L3 (Desert)
     "Tier1_URX4_LA5_M600V_alt",                                     // DMR/LA5B/M600V (Tan)/alt(Laser)
     "Tier1_URX4_LA5_M600V_alt_FL",                                  // DMR/LA5B/M600V (Tan)/alt(Light)
     "Tier1_URX4_NGAL_M600V_alt",                                    // DMR/NGAL/M600V (Tan)/alt(Laser)
@@ -1074,7 +1068,30 @@ KPLIB_arsenalItems = [
 	"Tier1_BCM_Gunfighter_VG_FDE",                                  // BCM Gunfighter VG Mod3 MLOK (FDE)	
 	"Tier1_SAW_Bipod_DD",                                           // DD VFG/SAW Improved Bipod
 	"Tier1_SAW_Bipod_DD_Desert",                                    // DD VFG/SAW Improved Bipod (Desert)
-	
+	"Tier1_ANPVS10_Tan",                                            // AN/PVS-10 (Tan)
+	"Tier1_EXPS3_0_Black",                                          // EXPS3-0
+	"Tier1_EXPS3_0_Desert",                                         // EXPS3-0 (Desert)
+	"Tier1_EXPS3_0_Tano",                                           // EXPS3-0 (Tan)
+	"Tier1_EXPS3_0_Riser_Black",                                    // EXPS3-0 w/Riser (Black)
+	"Tier1_EXPS3_0_Riser_Desert",                                   // EXPS3-0 w/Riser(Desert)
+	"Tier1_EXPS3_0_Riser_Tano",                                     // EXPS3-0 w/Riser(Tan)
+	"Tier1_EXPS3_0_G33_Black_Up",                                   // EXPS3-0/G33
+	"Tier1_EXPS3_0_G33_Desert_Up",                                  // EXPS3-0/G33 (Desert)
+	"Tier1_EXPS3_0_G33_Tano_Up",                                    // EXPS3-0/G33 (Tan)
+	"Tier1_EXPS3_0_G33_Riser_Black_Up",                             // EXPS3-0/G33 w/Riser
+	"Tier1_EXPS3_0_G33_Riser_Desert_Up",                            // EXPS3-0/G33 w/Riser (Desert)
+	"Tier1_EXPS3_0_G33_Riser_Tano_Up",                              // EXPS3-0/G33 w/Riser (Tan)
+	"Tier1_MicroT2_Black",                                          // Micro T-2
+	"Tier1_MicroT2_Tan",                                            // Micro T-2 (Desert)
+    "Tier1_MicroT2_Low_Black",                                      // Micro T-2 Low Mount
+    "Tier1_MicroT2_Low_Tan",                                        // Micro T-2 Low Mount (Desert)
+    "Tier1_MicroT2_Riser_Black",                                    // Micro T-2 w/Riser
+    "Tier1_MicroT2_Riser_Tan",                                      // Micro T-2 w/Riser (Desert)
+	"Tier1_MicroT2_G33_Black_Up",                                   // Micro T-2/G33
+	"Tier1_MicroT2_G33_Desert_Up",                                  // Micro T-2/G33 (Desert)
+	"Tier1_MicroT2_G33_Riser_Black_Up",                             // Micro T-2/G33 w/Riser
+	"Tier1_MicroT2_G33_Riser_Desert_Up",                            // Micro T-2/G33 w/Riser (Desert)
+
     // Vanilla Standard Items
     "acc_flashlight_pistol",                                        // Pistol Flashlight
     "B_UavTerminal",                                                // UAV Terminal [NATO]

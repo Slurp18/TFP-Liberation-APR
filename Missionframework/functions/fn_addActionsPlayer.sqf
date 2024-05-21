@@ -387,6 +387,31 @@ _player addAction [
     "
 ];
 
+// Garbage Clean
+_player addAction[
+    ["<t color='#FF0000'>", localize "STR_GARBAGE_CLEAN_ACTION", "</t> <img size='2' image='res\ui_garbage.paa'/>"] joinString "",
+    {
+        [player getVariable ["KPLIB_fobPos", [0, 0, 0]], KPLIB_range_fob * 0.9, player] call KPLIB_fnc_garbageClean;},
+    nil,
+    -850,
+    false,
+    true,
+    "",
+    "
+        isNull (objectParent _originalTarget) &&
+        alive _originalTarget &&
+        (
+            _originalTarget getVariable ['KPLIB_fobDist', 99999] < 20 ||
+            _originalTarget getVariable ['KPLIB_isNearStart', false]
+        ) &&
+        (
+            _originalTarget getVariable ['KPLIB_hasDirectAccess', false] ||
+            [5] call KPLIB_fnc_hasPermission
+        )
+    "
+];
+
+
 // Full Heal
 _player addAction [
     ["<t color='#80FF80'>", localize "STR_FULLHEAL_ACTION", "</t> <img size='2' image='res\ui_fullheal.paa'/>"] joinString "",

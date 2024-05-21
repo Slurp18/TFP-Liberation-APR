@@ -197,6 +197,7 @@ KPLIB_arsenalWeapons = [
     "rhsusf_weap_MP7A2_aor1",                                       // MP7A2 (AOR1)
     "rhsusf_weap_MP7A2_desert",                                     // MP7A2 (Desert)
     "rhsusf_weap_MP7A2_winter",                                     // MP7A2 (Winter)
+    /*
     "rhsusf_weap_MP7A2",                                            // MP7A2
     "UK3CB_MP510",                                                  // HK MP5/10
     "UK3CB_MP5A2",                                                  // HK MP5A2
@@ -208,6 +209,7 @@ KPLIB_arsenalWeapons = [
     "UK3CB_MP5N_UGL",                                               // HK MP5N-UGL
     "UK3CB_MP5SD5",                                                 // HK MP5SD5
     "UK3CB_MP5SD6"                                                  // HK MP5SD6
+    */
 ];
 
 KPLIB_arsenalMagazines = [
@@ -449,7 +451,8 @@ KPLIB_arsenalMagazines = [
     "murshun_cigs_lighter",                                         // Lighter
     "murshun_cigs_matches",                                         // Matches
     "Laserbatteries",                                               // Designator Batteries
-    "UK3CB_MP5_30Rnd_10_Magazine_G",                                // 30rd MP5 10mm (1x Green Tracer)
+    /*
+"UK3CB_MP5_30Rnd_10_Magazine_G",                                // 30rd MP5 10mm (1x Green Tracer)
     "UK3CB_MP5_30Rnd_10_Magazine_R",                                // 30rd MP5 10mm (1x Red Tracer)
     "UK3CB_MP5_30Rnd_10_Magazine_W",                                // 30rd MP5 10mm (1x White Tracer)
     "UK3CB_MP5_30Rnd_10_Magazine_Y",                                // 30rd MP5 10mm (1x Yellow Tracer)
@@ -467,6 +470,7 @@ KPLIB_arsenalMagazines = [
     "UK3CB_MP5_30Rnd_9x19_Magazine_RT",                             // 30rd MP5 9mm (Red Tracer)
     "UK3CB_MP5_30Rnd_9x19_Magazine_WT",                             // 30rd MP5 9mm (White Tracer)
     "UK3CB_MP5_30Rnd_9x19_Magazine_YT",                             // 30rd MP5 9mm (Yellow Tracer)
+*/
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine

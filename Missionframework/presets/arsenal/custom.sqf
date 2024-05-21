@@ -199,7 +199,7 @@ KPLIB_arsenalWeapons = [
     "rhsusf_weap_MP7A2_winter",                                     // MP7A2 (Winter)
     "rhsusf_weap_MP7A2",                                            // MP7A2
     "UK3CB_MP510",                                                  // HK MP5/10
-    "UK3CB_MP5A2",                                                  // H KMP5A2
+    "UK3CB_MP5A2",                                                  // HK MP5A2
     "UK3CB_MP5A3",                                                  // HK MP5A3
     "UK3CB_MP5A4",                                                  // HK MP5A4
     "UK3CB_MP5K",                                                   // HK MP5K

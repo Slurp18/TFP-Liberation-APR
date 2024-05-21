@@ -1091,6 +1091,28 @@ KPLIB_arsenalItems = [
 	"Tier1_MicroT2_G33_Desert_Up",                                  // Micro T-2/G33 (Desert)
 	"Tier1_MicroT2_G33_Riser_Black_Up",                             // Micro T-2/G33 w/Riser
 	"Tier1_MicroT2_G33_Riser_Desert_Up",                            // Micro T-2/G33 w/Riser (Desert)
+	"Tier1_Elcan_156_C2_Black",                                     // Specter DR 1.5x/6x C2
+	"Tier1_Elcan_156_C2_Black_2D",                                  // Specter DR 1.5x/6x C2 (2D)
+	"Tier1_Elcan_156_C2_FDE",                                       // Specter DR 1.5x/6x C2 (FDE)
+	"Tier1_Elcan_156_C2_FDE_2D",                                    // Specter DR 1.5x/6x C2 (FDE) (2D)
+	"Tier1_Elcan_156_C2_ARD_Black",                                 // Specter DR 1.5x/6x C2/ARD 
+	"Tier1_Elcan_156_C2_ARD_Black_2D",                              // Specter DR 1.5x/6x C2/ARD (2D)
+	"Tier1_Elcan_156_C2_ARD_FDE",                                   // Specter DR 1.5x/6x C2/ARD (FDE)
+	"Tier1_Elcan_156_C2_ARD_FDE_2D",                                // Specter DR 1.5x/6x C2/ARD (FDE) (2D)
+	"Tier1_Elcan_156_C2_Docter_Black",                              // Specter DR 1.5x/6x C2/Docter III
+	"Tier1_Elcan_156_C2_Docter_Black_2D",                           // Specter DR 1.5x/6x C2/Docter III (2D)
+	"Tier1_Elcan_156_C2_Docter_FDE",                                // Specter DR 1.5x/6x C2/Docter III (FDE)
+	"Tier1_Elcan_156_C2_Docter_FDE_2D",                             // Specter DR 1.5x/6x C2/Docter III (FDE) (2D)
+	"Tier1_Elcan_156_C2_ARD_Docter_Black",                          // Specter DR 1.5x/6x C2/ARD/Docter III 
+	"Tier1_Elcan_156_C2_ARD_Docter_Black_2D",                       // Specter DR 1.5x/6x C2/ARD/Docter III (2D)
+	"Tier1_Elcan_156_C2_ARD_Docter_FDE",                            // Specter DR 1.5x/6x C2/ARD/Docter III (FDE)
+	"Tier1_Elcan_156_C2_ARD_Docter_FDE_2D",                         // Specter DR 1.5x/6x C2/ARD/Docter III (FDE) (2D)
+	"Tier1_Razor_Gen3_110_Geissele",                                // Vortex Razor HD GenIII/GAM
+	"Tier1_Razor_Gen3_110_Geissele_Docter",                         // Vortex Razor HD GenIII/GAM/Docter III
+	"Tier1_ATACR18_Geissele_Black",                                 // Nightforce 1-8x24 ATACR/GAM
+	"Tier1_ATACR18_Geissele_Desert",                                // Nightforce 1-8x24 ATACR/GAM (Desert)
+	"Tier1_ATACR18_Geissele_Docter_Black",                          // Nightforce 1-8x24 ATACR/GAM/Docter III
+	"Tier1_ATACR18_Geissele_Docter_Desert",                         // Nightforce 1-8x24 ATACR/GAM/Docter III (Desert)
 
     // Vanilla Standard Items
     "acc_flashlight_pistol",                                        // Pistol Flashlight

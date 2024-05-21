@@ -1112,8 +1112,9 @@ KPLIB_arsenalItems = [
 	"Tier1_ATACR18_Geissele_Black",                                 // Nightforce 1-8x24 ATACR/GAM
 	"Tier1_ATACR18_Geissele_Desert",                                // Nightforce 1-8x24 ATACR/GAM (Desert)
 	"Tier1_ATACR18_Geissele_Docter_Black",                          // Nightforce 1-8x24 ATACR/GAM/Docter III
-	*/ "Tier1_ATACR18_Geissele_Docter_Desert",                         // Nightforce 1-8x24 ATACR/GAM/Docter III (Desert)
+	 "Tier1_ATACR18_Geissele_Docter_Desert",                         // Nightforce 1-8x24 ATACR/GAM/Docter III (Desert)
 
+    */
     // Vanilla Standard Items
     "acc_flashlight_pistol",                                        // Pistol Flashlight
     "B_UavTerminal",                                                // UAV Terminal [NATO]

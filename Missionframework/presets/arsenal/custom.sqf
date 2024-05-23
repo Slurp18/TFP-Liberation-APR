@@ -1,8 +1,8 @@
 /*
     File: custom.sqf
-    Author: TF Phantom Admin Team
-    Date: 2024-04-14
-    Last Update: 2024-04-15
+    Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
+    Date: 2024-05-23
+    Last Update: 2024-05-23
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -10,13 +10,12 @@
 
     Needed:
         - RHSUSAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
-        - Tier One Weapons - https://steamcommunity.com/workshop/filedetails/?id=2268351256
-        - 3CB Factions - https://steamcommunity.com/workshop/filedetails/?id=1673456286
+		- 3CB Factions - https://steamcommunity.com/workshop/filedetails/?id=1673456286
+		- Tier One Weapons - https://steamcommunity.com/workshop/filedetails/?id=2268351256
+		- ACE  - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
+		- TFAR - https://steamcommunity.com/sharedfiles/filedetails/?id=894678801
 
     Optional:
-        - ACE  - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
-        - ACRE - https://steamcommunity.com/sharedfiles/filedetails/?id=751965892
-        - TFAR - https://steamcommunity.com/sharedfiles/filedetails/?id=894678801
 */
 
 KPLIB_arsenalWeapons = [
@@ -427,6 +426,24 @@ KPLIB_arsenalMagazines = [
     "rhsusf_mag_40Rnd_46x30_AP",                                    // 40rnd MP7 SX AP
     "rhsusf_mag_40Rnd_46x30_FMJ",                                   // 40rnd MP7 SX FMJ
     "rhsusf_mag_40Rnd_46x30_JHP",                                   // 40rnd MP7 SX JHP
+	"UK3CB_MP5_30Rnd_10_Magazine_G",                                // 30rd MP5 10mm (1x Green Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_R",                                // 30rd MP5 10mm (1x Red Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_W",                                // 30rd MP5 10mm (1x White Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_Y",                                // 30rd MP5 10mm (1x Yellow Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine",                                  // 30rd MP5 10mm (No Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_GT",                               // 30rd MP5 10mm (Green Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_RT",                               // 30rd MP5 10mm (Red Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_WT",                               // 30rd MP5 10mm (White Tracer)
+    "UK3CB_MP5_30Rnd_10_Magazine_YT",                               // 30rd MP5 10mm (Yellow Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_G",                              // 30rd MP5 9mm (1x Green Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_R",                              // 30rd MP5 9mm (1x Red Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_W",                              // 30rd MP5 9mm (1x White Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_Y",                              // 30rd MP5 9mm (1x Yellow Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine",                                // 30rd MP5 9mm (No Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_GT",                             // 30rd MP5 9mm (Green Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_RT",                             // 30rd MP5 9mm (Red Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_WT",                             // 30rd MP5 9mm (White Tracer)
+    "UK3CB_MP5_30Rnd_9x19_Magazine_YT",                             // 30rd MP5 9mm (Yellow Tracer)
     "rhsusf_mag_6Rnd_M397_HET",                                     // 6rnd M397 HET Grenades
     "rhsusf_mag_6Rnd_m4009",                                        // 6rnd. GL Stun Grenade Round
     "rhsusf_mag_6Rnd_M433_HEDP",                                    // 6rnd M433 HEDP Grenades
@@ -449,25 +466,7 @@ KPLIB_arsenalMagazines = [
     "murshun_cigs_lighter",                                         // Lighter
     "murshun_cigs_matches",                                         // Matches
     "Laserbatteries",                                               // Designator Batteries
-    "UK3CB_MP5_30Rnd_10_Magazine_G",                                // 30rd MP5 10mm (1x Green Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_R",                                // 30rd MP5 10mm (1x Red Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_W",                                // 30rd MP5 10mm (1x White Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_Y",                                // 30rd MP5 10mm (1x Yellow Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine",                                  // 30rd MP5 10mm (No Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_GT",                               // 30rd MP5 10mm (Green Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_RT",                               // 30rd MP5 10mm (Red Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_WT",                               // 30rd MP5 10mm (White Tracer)
-    "UK3CB_MP5_30Rnd_10_Magazine_YT",                               // 30rd MP5 10mm (Yellow Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_G",                              // 30rd MP5 9mm (1x Green Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_R",                              // 30rd MP5 9mm (1x Red Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_W",                              // 30rd MP5 9mm (1x White Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_Y",                              // 30rd MP5 9mm (1x Yellow Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine",                                // 30rd MP5 9mm (No Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_GT",                             // 30rd MP5 9mm (Green Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_RT",                             // 30rd MP5 9mm (Red Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_WT",                             // 30rd MP5 9mm (White Tracer)
-    "UK3CB_MP5_30Rnd_9x19_Magazine_YT",                             // 30rd MP5 9mm (Yellow Tracer)
-
+	
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
     "APERSMine_Range_Mag",                                          // APERS Mine
@@ -1092,21 +1091,13 @@ KPLIB_arsenalItems = [
 	"Tier1_MicroT2_G33_Riser_Black_Up",                             // Micro T-2/G33 w/Riser
 	"Tier1_MicroT2_G33_Riser_Desert_Up",                            // Micro T-2/G33 w/Riser (Desert)
 	"Tier1_Elcan_156_C2_Black",                                     // Specter DR 1.5x/6x C2
-	"Tier1_Elcan_156_C2_Black_2D",                                  // Specter DR 1.5x/6x C2 (2D)
 	"Tier1_Elcan_156_C2_FDE",                                       // Specter DR 1.5x/6x C2 (FDE)
-	"Tier1_Elcan_156_C2_FDE_2D",                                    // Specter DR 1.5x/6x C2 (FDE) (2D)
 	"Tier1_Elcan_156_C2_ARD_Black",                                 // Specter DR 1.5x/6x C2/ARD 
-	"Tier1_Elcan_156_C2_ARD_Black_2D",                              // Specter DR 1.5x/6x C2/ARD (2D)
 	"Tier1_Elcan_156_C2_ARD_FDE",                                   // Specter DR 1.5x/6x C2/ARD (FDE)
-	"Tier1_Elcan_156_C2_ARD_FDE_2D",                                // Specter DR 1.5x/6x C2/ARD (FDE) (2D)
 	"Tier1_Elcan_156_C2_Docter_Black",                              // Specter DR 1.5x/6x C2/Docter III
-	"Tier1_Elcan_156_C2_Docter_Black_2D",                           // Specter DR 1.5x/6x C2/Docter III (2D)
 	"Tier1_Elcan_156_C2_Docter_FDE",                                // Specter DR 1.5x/6x C2/Docter III (FDE)
-	"Tier1_Elcan_156_C2_Docter_FDE_2D",                             // Specter DR 1.5x/6x C2/Docter III (FDE) (2D)
 	"Tier1_Elcan_156_C2_ARD_Docter_Black",                          // Specter DR 1.5x/6x C2/ARD/Docter III 
-	"Tier1_Elcan_156_C2_ARD_Docter_Black_2D",                       // Specter DR 1.5x/6x C2/ARD/Docter III (2D)
 	"Tier1_Elcan_156_C2_ARD_Docter_FDE",                            // Specter DR 1.5x/6x C2/ARD/Docter III (FDE)
-	"Tier1_Elcan_156_C2_ARD_Docter_FDE_2D",                         // Specter DR 1.5x/6x C2/ARD/Docter III (FDE) (2D)
 	"Tier1_Razor_Gen3_110_Geissele",                                // Vortex Razor HD GenIII/GAM
 	"Tier1_Razor_Gen3_110_Geissele_Docter",                         // Vortex Razor HD GenIII/GAM/Docter III
 	"Tier1_ATACR18_Geissele_Black",                                 // Nightforce 1-8x24 ATACR/GAM
@@ -1266,4 +1257,3 @@ KPLIB_arsenalBackpacks = [
     "ACE_NonSteerableParachute",                                    // Non-Steerable Parachute
     "ACE_TacticalLadder_Pack"                                       // Telescopic Ladder
 ];
-

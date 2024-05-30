@@ -1129,10 +1129,10 @@ KPLIB_arsenalItems = [
     "V_RebreatherB",                                                // Rebreather [NATO]
 	
     // Ctab
-    "ItemcTab",                                                     // Commander Tablet
-    "ItemAndroid",                                                  // Android based Blue Force Tracker
-    "ItemcTabHCam",                                                 // Ctab Helmet Cam
-    "ItemMicroDAGR",                                                // MicroDAGR GPS
+    "ItemcTab",                                                     // DK10 Tablet
+    "ItemAndroid",                                                  // Galaxy S7 ATAK
+    "ItemcTabHCam",                                                 // Helmet Camera
+    "ItemMicroDAGR",                                                // MicroDAGR
 
     // ACE Items
     "ACE_acc_pointer_green",                                        // Laser Pointer (green)

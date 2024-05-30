@@ -1129,9 +1129,10 @@ KPLIB_arsenalItems = [
     "V_RebreatherB",                                                // Rebreather [NATO]
 	
     // Ctab
-    "ItemAndroid",                                                  // GD300 Android
-    "ItemMicroDAGR",                                                // MicroDAGR
-	"ItemcTab",                                                     // Rugged Tablet
+    "ItemcTab",                                                     // Commander Tablet
+    "ItemAndroid",                                                  // Android based Blue Force Tracker
+    "ItemcTabHCam",                                                 // Helmet Cam
+    "ItemMicroDAGR",                                                // MicroDAGR GPS
 
     // ACE Items
     "ACE_acc_pointer_green",                                        // Laser Pointer (green)

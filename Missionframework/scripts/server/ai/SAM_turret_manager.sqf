@@ -82,7 +82,7 @@ while {KPLIB_endgame == 0} do {
         // If SAM turrets were destroyed, add a 'punishment' time for the enemy. This extra time is meant to be a dampening of the production of SAM turrets
         if (_killedTurretsSAM > 0) then {
             sleep (_sleepTime * _killedTurretsSAM);
-            _killedTurretsSAM = 0;
+            _killedTurretsSAM = 20;
         };
     };
     

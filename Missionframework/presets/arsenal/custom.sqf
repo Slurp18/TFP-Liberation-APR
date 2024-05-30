@@ -1212,7 +1212,7 @@ KPLIB_arsenalItems = [
     "TFAR_anprc148jem",                                             // AN/PRC-148 JEM
     "TFAR_anprc152",                                                // AN/PRC-152
     "TFAR_anprc154",                                                // AN/PRC-154
-    "TFAR_microdagr"                                                // MicroDAGR Radio Programmer
+    "TFAR_microdagr",                                               // MicroDAGR Radio Programmer
 	
 	// cTab
     "ItemAndroid",                                                  // Galaxy S7 ATAK

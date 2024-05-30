@@ -1,20 +1,20 @@
 /*
     File: custom.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
-    Date: 2024-05-23
-    Last Update: 2024-05-23
+    Date: 2024-05-30
+    Last Update: 2024-05-30
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
         TF Phantom arsenal preset.
 
     Needed:
+        Needed:
         - RHSUSAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
 		- 3CB Factions - https://steamcommunity.com/workshop/filedetails/?id=1673456286
 		- Tier One Weapons - https://steamcommunity.com/workshop/filedetails/?id=2268351256
 		- ACE  - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
 		- TFAR - https://steamcommunity.com/sharedfiles/filedetails/?id=894678801
-
     Optional:
 */
 
@@ -1127,12 +1127,6 @@ KPLIB_arsenalItems = [
     "U_B_T_FullGhillie_tna_F",                                      // Full Ghillie (Jungle) [NATO]
     "U_B_Wetsuit",                                                  // Wetsuit [NATO]
     "V_RebreatherB",                                                // Rebreather [NATO]
-	
-    // Ctab
-    "ItemcTab",                                                     // DK10 Tablet
-    "ItemAndroid",                                                  // Galaxy S7 ATAK
-    "ItemcTabHCam",                                                 // Helmet Camera
-    "ItemMicroDAGR",                                                // MicroDAGR
 
     // ACE Items
     "ACE_acc_pointer_green",                                        // Laser Pointer (green)
@@ -1219,6 +1213,12 @@ KPLIB_arsenalItems = [
     "TFAR_anprc152",                                                // AN/PRC-152
     "TFAR_anprc154",                                                // AN/PRC-154
     "TFAR_microdagr"                                                // MicroDAGR Radio Programmer
+	
+	// cTab
+    "ItemAndroid",                                                  // Galaxy S7 ATAK
+    "ItemcTab",                                                     // DK10 Tablet
+    "ItemMicroDAGR",                                                // MicroDAGR
+    "ItemcTabHCam"                                                  // Helmet Camera
 ];
 
 KPLIB_arsenalBackpacks = [

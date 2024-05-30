@@ -26,10 +26,9 @@ KPLIB_whitelist_cmdrSlot = [
 
 // Access the commander actions (rights, production, etc.), even if the corresponding player is not in the commander slot.
 KPLIB_whitelist_cmdrActions = [
-            "76561199062959583",  //Slurp 
-            "76561198196083931",  //Stins
-            "76561198983314685"   //Frost
-
+            "76561199062959583",   
+            "76561198196083931",  
+            "76561198983314685"   
 ];
 
 // Whitelist for BI support framework access.

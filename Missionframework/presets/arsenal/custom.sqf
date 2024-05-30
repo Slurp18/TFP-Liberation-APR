@@ -1131,7 +1131,7 @@ KPLIB_arsenalItems = [
     // Ctab
     "ItemcTab",                                                     // Commander Tablet
     "ItemAndroid",                                                  // Android based Blue Force Tracker
-    "ItemcTabHCam",                                                 // Helmet Cam
+    "ItemcTabHCam",                                                 // Ctab Helmet Cam
     "ItemMicroDAGR",                                                // MicroDAGR GPS
 
     // ACE Items

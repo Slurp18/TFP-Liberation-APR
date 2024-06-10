@@ -149,6 +149,7 @@ KPLIB_o_troopTransports = [
     "UK3CB_TKA_O_Ural_Open",                                            // Ural-4320 Open
     "UK3CB_TKA_O_Ural",                                                 // Ural-4320 (Covered)
     "UK3CB_TKA_O_BTR80a",                                               // BTR-80a
+	"UK3CB_TKA_O_BTR80",                                                // BTR-80
     "UK3CB_TKA_O_Mi8"                                                   // Mil Mi-8 (Transport)
 ];
 

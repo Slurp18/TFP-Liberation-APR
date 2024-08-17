@@ -504,6 +504,29 @@ KPLIB_arsenalBackpacks = [
     "BWA3_TacticalPack_Multi",                                      // Tactical Backpack (Multitarn)
     "BWA3_TacticalPack_Tropen_Medic",                               // Tactical Backpack (Tropentarn, Medic)
     "BWA3_TacticalPack_Tropen",                                     // Tactical Backpack (Tropentarn)
+    "USP_REEBOW_3DAP_CBR",                                          // Reebow 3DAP CBR
+    "USP_REEBOW_3DAP_ACC1_CBR",                                     // Reebow 3DAP 1 CBR
+    "USP_REEBOW_3DAP_ACC2_CBR",                                     // Reebow 3DAP 2 CBR
+    "USP_REEBOW_3DAP_ACC3_CBR",                                     // Reebow 3DAP 3 CBR
+    "USP_REEBOW_3DAP_ACC4_CBR",                                     // Reebow 3DAP 4 CBR
+    "USP_REEBOW_3DAP_ACC5_CBR",                                     // Reebow 3DAP 5 CBR
+    "USP_REEBOW_3DAP_ACC6_CBR",                                     // Reebow 3DAP 6 CBR
+    "USP_REEBOW_3DAP_ACC7_CBR",                                     // Reebow 3DAP 7 CBR
+    "USP_REEBOW_3DAP_ACC8_CBR",                                     // Reebow 3DAP 8 CBR
+    "USP_REEBOW_3DAP_ACC9_CBR",                                     // Reebow 3DAP 9 CBR
+    "USP_REEBOW_3DAP_ACC10_CBR",                                    // Reebow 3DAP 10 CBR
+
+    "USP_REEBOW_3DAP_RGR",                                          // Reebow 3DAP RGR
+    "USP_REEBOW_3DAP_ACC1_RGR",                                     // Reebow 3DAP 1
+    "USP_REEBOW_3DAP_ACC2_RGR",                                     // Reebow 3DAP 2
+    "USP_REEBOW_3DAP_ACC3_RGR",                                     // Reebow 3DAP 3 
+    "USP_REEBOW_3DAP_ACC4_RGR",                                     // Reebow 3DAP 4
+    "USP_REEBOW_3DAP_ACC5_RGR",                                     // Reebow 3DAP 5
+    "USP_REEBOW_3DAP_ACC6_RGR",                                     // Reebow 3DAP 6
+    "USP_REEBOW_3DAP_ACC7_RGR",                                     // Reebow 3DAP 7 
+    "USP_REEBOW_3DAP_ACC8_RGR",                                     // Reebow 3DAP 8
+    "USP_REEBOW_3DAP_ACC9_RGR",                                     // Reebow 3DAP 9 
+    "USP_REEBOW_3DAP_ACC10_RGR",                                    // Reebow 3DAP 10
 
     // Standard Vanilla Backpacks
     "B_Parachute",                                                  // Steerable Parachute
